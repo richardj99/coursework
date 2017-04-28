@@ -1,4 +1,3 @@
-# Forgot Password button --> send email to administrator --> make him reset password
 import os  # os library imported, used for directory scanning and to exit the program
 import sys  # sys library imported, used to create the application alongside PyQt
 import sqlite3 as lite  # sqlite3 library imported, used for database access
