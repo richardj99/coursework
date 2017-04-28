@@ -1,0 +1,20 @@
+new column with troolien value
+- 1 = artist data
+- 2 = album data
+- 3 = song data 
+
+
+then on doubleClick(): run generic function:
+
+
+
+generic function:
+	select all data from row clicked 
+	if troolien value == 1:
+		artistspecific function
+	if troolien value = 2:
+		albumspecific function 
+	if troolien value = 3:
+		songspecific function 
+richard is fucking gay
+haha

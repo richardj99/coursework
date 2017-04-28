@@ -1,0 +1,5 @@
+had trouble with connect disconnect code for table.
+
+Errors:
+- When songs are double clicked, the table widget view changes to unknown views.
+- When artist is clicked --> Error is thrown out.

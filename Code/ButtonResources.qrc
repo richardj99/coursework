@@ -1,0 +1,20 @@
+<RCC>
+  <qresource prefix="Buttons">
+    <file>Pause Button.png</file>
+    <file>Play Button.png</file>
+    <file>Previous Button.png</file>
+    <file>Skip Button.png</file>
+  </qresource>
+  <qresource prefix="Background">
+    <file>Title Bar.png</file>
+    <file>Table Playbar.png</file>
+    <file>Playbar.png</file>
+    <file>Media Player Playbar 2.png</file>
+    <file>Playbar.png</file>
+    <file>Search Bar.png</file>
+    <file>Test.png</file>
+    <file>Table Playbar.png</file>
+    <file>Transparent.png</file>
+    <file>Desktop.png</file>
+  </qresource>
+</RCC>
