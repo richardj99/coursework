@@ -30,7 +30,7 @@
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>40</y>
+       <y>30</y>
        <width>53</width>
        <height>16</height>
       </rect>
@@ -43,7 +43,7 @@
      <property name="geometry">
       <rect>
        <x>60</x>
-       <y>40</y>
+       <y>30</y>
        <width>451</width>
        <height>21</height>
       </rect>
@@ -60,6 +60,19 @@
      </property>
      <property name="text">
       <string>Import</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lbl_import">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>60</y>
+       <width>301</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Press the Import button to import the given directory</string>
      </property>
     </widget>
    </widget>

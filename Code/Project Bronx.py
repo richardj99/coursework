@@ -62,33 +62,39 @@ class LoginWindowClass(QtGui.QMainWindow, ui_loginWindow):
 
 class CreateAccountWindowClass(QtGui.QMainWindow, ui_createAccountWindow):
     def __init__(self, parent=None):
-        QtGui.QMainWindow.__init__(self, parent)
-        self.setupUi(self)
-        self.admin = 0
-        self.btn_crtacc.clicked.connect(self.create_account)
+        QtGui.QMainWindow.__init__(self, parent)  # initialisation script run
+        self.setupUi(self)  # user interface set up
+        self.btn_crtacc.clicked.connect(self.create_account)  # runs create account routine if create account button
+        # is pressed
 
     def create_account(self):
         str_newusername = self.txt_username.text()  # retrieves user's input from textbox
         str_newpassword = self.txt_password.text()  # retrieves user's input from textbox
-
-        print(str_newusername, str_newpassword)
-        cur.execute("SELECT UserID FROM Users ORDER BY UserID DESC")
-        # Retrieves the largest UserID from the Users table
-        int_userid = int(cur.fetchone()[0]) + 1  # Forms the new userID by incrementing the largest UserID by 1
-        print(int_userid)
-        cur.execute("select COUNT(UserName) from Users where UserName=?", (str(str_newusername),))
-        # Validates whether chosen username is already in the table
-        int_usernamevalidate = int(cur.fetchone()[0])
-        print(int_usernamevalidate)
-        if int_usernamevalidate != 0:
-            self.lbl_info.setText("Username is already in use")
+        if re.match(r"^.*[a-z]+.*$", str_newpassword) == None:
+            self.lbl_info.setText("Please use letters in the password")
+        elif re.match(r"^.*[0-9]+.*$", str_newpassword) == None:
+            self.lbl_info.setText("Please use numbers in the password")
+        elif re.match(r"^.{6,16}$", str_newpassword) == None:
+            self.lbl_info.setText("Password must be 6-16 characters")
         else:
-            str_passwordhash = hashlib.sha256(str_newpassword.encode()).hexdigest()
-            print(str_passwordhash)
-            cur.execute("INSERT INTO Users VALUES(?,?,?,0)", (int(int_userid), str(str_newusername),
+            print(str_newusername, str_newpassword)
+            cur.execute("SELECT UserID FROM Users ORDER BY UserID DESC")
+            # Retrieves the largest UserID from the Users table
+            int_userid = int(cur.fetchone()[0]) + 1  # Forms the new userID by incrementing the largest UserID by 1
+            print(int_userid)
+            cur.execute("select COUNT(UserName) from Users where UserName=?", (str(str_newusername),))
+            # Validates whether chosen username is already in the table
+            int_usernamevalidate = int(cur.fetchone()[0])
+            print(int_usernamevalidate)
+            if int_usernamevalidate != 0:
+                self.lbl_info.setText("Username is already in use")
+            else:
+                str_passwordhash = hashlib.sha256(str_newpassword.encode()).hexdigest()
+                print(str_passwordhash)
+                cur.execute("INSERT INTO Users VALUES(?,?,?,0)", (int(int_userid), str(str_newusername),
                                                               str(str_passwordhash)))
-            con.commit()
-            self.loginwindow()
+                con.commit()
+                self.loginwindow()
 
     def loginwindow(self):
         CreateWindow.hide()
@@ -225,10 +231,10 @@ class MainWindowClass(QtGui.QMainWindow, ui_mainWindow):
         print(details)
         self.lst_nowPlaying = details
         str_song_name = details[2]
-        str_location = (details[5])  # Song location is retrieved from selected row
+        str_location = (details[4])  # Song location is retrieved from selected row
         print(str_location)
         int_song_id = details[0]  # Song ID is retrieved from selected row
-        int_plays = details[8] + 1  # Number of song plats is retrieved from selected row and incremented
+        int_plays = details[7] + 1  # Number of song plats is retrieved from selected row and incremented
         cur.execute("UPDATE Songs SET Plays=? WHERE SongID=?", (int(int_plays), int(int_song_id)))
         # Updates number of plays of
         # the song in the database
@@ -380,6 +386,7 @@ class SettingsWindowClass(QtGui.QMainWindow, ui_settingsWindow):
             self.btn_exit.clicked.connect(self.exit)
 
         def loadUserData(self):
+            self.int_userID = LoginWindow.int_userID
             print(self.int_userID)
             cur.execute("SELECT * FROM Users WHERE UserID != ?", (int(self.int_userID),))
             self.lst_data = cur.fetchall()
@@ -412,6 +419,8 @@ class SettingsWindowClass(QtGui.QMainWindow, ui_settingsWindow):
             print("scanning")
             counter = 1  # counter used to calculate song_id
             rawdirectory = self.txt_dir.text()  # sets directory specified from user for their music library
+            #if os.path.exists(rawdirectory)) == False:
+
             for dirName, subdirList, filelist in os.walk(rawdirectory):  # starts to walk through library
                 for fname in filelist:  # scans filename in directory
                     if fname[-3:] == 'mp3':  # validation for .mp3
@@ -457,8 +466,8 @@ class SettingsWindowClass(QtGui.QMainWindow, ui_settingsWindow):
                         song_id = int(counter)  # forms song_id from counting the mp3 files
                         song_name = (song["title"][0])  # sets the song title tag to variable
                         track_number = (song["tracknumber"][0])  # sets track number tag to variable
-                        slash_location = track_number.find("/")
-                        if slash_location != -1:
+                        slash_location = track_number.find("/")  # searches track number for a slash /
+                        if slash_location != -1:  # if a slash is found in the
                             track_number = track_number[:slash_location]
                             print(track_number)
                         track_number = int(track_number)

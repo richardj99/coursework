@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5ba9046-f50d-48e1-945a-3e8d98a3e5f5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Music Library.db" afterPath="$PROJECT_DIR$/Music Library.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Documentation/Richard Jones A Level Computer Science Project April 2017.docx" afterPath="$PROJECT_DIR$/../Documentation/Richard Jones A Level Computer Science Project April 2017.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Create Account.ui" afterPath="$PROJECT_DIR$/Create Account.ui" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Login UI.ui" afterPath="$PROJECT_DIR$/Login UI.ui" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project Bronx.py" afterPath="$PROJECT_DIR$/Project Bronx.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Settings.ui" afterPath="$PROJECT_DIR$/Settings.ui" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,65 +18,116 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Code$Project_Bronx.coverage" NAME="Project Bronx Coverage Results" MODIFIED="1493659004301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="Music Library.db" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="Music Library.db" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="main" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="Project Bronx.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Project Bronx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-126">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-50">
+              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding>
-                <marker date="1493376177921" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
-                <marker date="1493376177921" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
-                <marker date="1493376177921" expanded="true" signature="3087:3128" ph="select UserI... Users" />
-                <marker date="1493376177921" expanded="true" signature="3295:3343" ph="SELECT Admin... Users" />
-                <marker date="1493376177921" expanded="true" signature="4661:4706" ph="SELECT UserI... Users" />
-                <marker date="1493376177921" expanded="true" signature="4928:4978" ph="select COUNT... Users" />
-                <marker date="1493376177921" expanded="true" signature="5425:5458" ph="INSERT INTO Users... " />
-                <marker date="1493376177921" expanded="true" signature="8884:8921" ph="SELECT * FRO... Songs" />
-                <marker date="1493376177921" expanded="true" signature="9367:9410" ph="SELECT * FRO... Albums" />
-                <marker date="1493376177921" expanded="true" signature="9841:9886" ph="SELECT * FRO... Artists" />
-                <marker date="1493376177921" expanded="true" signature="10359:10409" ph="SELECT * FRO... Playlists" />
-                <marker date="1493376177921" expanded="true" signature="10750:10810" ph="SELECT * FRO... Albums" />
-                <marker date="1493376177921" expanded="true" signature="11329:11385" ph="SELECT * FRO... Songs" />
-                <marker date="1493376177921" expanded="true" signature="11755:12078" ph="SELECT Playl... PlaylistSongs" />
-                <marker date="1493376177921" expanded="true" signature="12739:12778" ph="UPDATE Songs... " />
-                <marker date="1493376177921" expanded="true" signature="15861:15902" ph="SELECT * FRO... Songs" />
-                <marker date="1493376177921" expanded="true" signature="16102:16145" ph="SELECT * FRO... Albums" />
-                <marker date="1493376177921" expanded="true" signature="16347:16392" ph="SELECT * FRO... Artists" />
-                <marker date="1493376177921" expanded="true" signature="16565:16610" ph="SELECT * FRO... Playlists" />
-                <marker date="1493376177921" expanded="true" signature="16886:16932" ph="DELETE FROM " />
-                <marker date="1493376177921" expanded="true" signature="16977:17032" ph="SELECT * FRO... Songs" />
-                <marker date="1493376177921" expanded="true" signature="17132:17203" ph="SELECT Playl... PlaylistSongs" />
-                <marker date="1493376177921" expanded="true" signature="17313:17384" ph="SELECT Playl... PlaylistSongs" />
-                <marker date="1493376177921" expanded="true" signature="17548:17587" ph="INSERT INTO PlaylistSongs... " />
-                <marker date="1493376177921" expanded="true" signature="17784:17822" ph="SELECT * FRO... Playlists" />
-                <marker date="1493376177921" expanded="true" signature="18775:18812" ph="SELECT * FRO... Users" />
-                <marker date="1493376177921" expanded="true" signature="19985:20003" ph="DELETE FROM " />
-                <marker date="1493376177921" expanded="true" signature="20031:20050" ph="DELETE FROM " />
-                <marker date="1493376177921" expanded="true" signature="20078:20095" ph="DELETE FROM " />
-                <marker date="1493376177921" expanded="true" signature="21130:21187" ph="SELECT COUNT... Artists" />
-                <marker date="1493376177921" expanded="true" signature="21523:21560" ph="select COUNT... Artists" />
-                <marker date="1493376177921" expanded="true" signature="21897:21930" ph="INSERT INTO Artists... " />
-                <marker date="1493376177921" expanded="true" signature="22224:22272" ph="select Artis... Artists" />
-                <marker date="1493376177921" expanded="true" signature="22509:22564" ph="SELECT COUNT... Albums" />
-                <marker date="1493376177921" expanded="true" signature="22893:22928" ph="SELECT COUNT... Albums" />
-                <marker date="1493376177921" expanded="true" signature="23255:23289" ph="INSERT INTO Albums... " />
-                <marker date="1493376177921" expanded="true" signature="23686:23730" ph="select Album... Albums" />
-                <marker date="1493376177921" expanded="true" signature="24609:24652" ph="INSERT INTO Songs... " />
-                <marker date="1493376177921" expanded="true" signature="25494:25528" ph="DELETE FROM " />
-                <marker date="1493376177921" expanded="true" signature="25756:25807" ph="UPDATE Users... " />
-                <marker date="1493376177921" expanded="true" signature="25916:25967" ph="UPDATE Users... " />
-                <marker date="1493376177921" expanded="true" signature="27620:27691" ph="SELECT Playl... PlaylistSongs" />
-                <marker date="1493376177921" expanded="true" signature="27896:27936" ph="INSERT INTO PlaylistSongs... " />
-                <marker date="1493376177921" expanded="true" signature="28261:28322" ph="DELETE FROM " />
-                <marker date="1493376177921" expanded="true" signature="28642:28883" ph="SELECT Playl... PlaylistSongs" />
-                <marker date="1493376177921" expanded="true" signature="29098:29117" ph="SELECT * FRO... Songs" />
-                <marker date="1493376177921" expanded="true" signature="30768:30818" ph="SELECT * FRO... Playlists" />
-                <marker date="1493376177921" expanded="true" signature="31519:31576" ph="SELECT Playl... Playlists" />
-                <marker date="1493376177921" expanded="true" signature="31654:31692" ph="INSERT INTO Playlists... " />
+                <marker date="1493659179531" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
+                <marker date="1493659179531" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
+                <marker date="1493659179531" expanded="true" signature="3087:3128" ph="select UserI... Users" />
+                <marker date="1493659179531" expanded="true" signature="3295:3343" ph="SELECT Admin... Users" />
+                <marker date="1493659179531" expanded="true" signature="5194:5239" ph="SELECT UserI... Users" />
+                <marker date="1493659179531" expanded="true" signature="5477:5527" ph="select COUNT... Users" />
+                <marker date="1493659179531" expanded="true" signature="6010:6043" ph="INSERT INTO Users... " />
+                <marker date="1493659179531" expanded="true" signature="9477:9514" ph="SELECT * FRO... Songs" />
+                <marker date="1493659179531" expanded="true" signature="9960:10003" ph="SELECT * FRO... Albums" />
+                <marker date="1493659179531" expanded="true" signature="10434:10479" ph="SELECT * FRO... Artists" />
+                <marker date="1493659179531" expanded="true" signature="10952:11002" ph="SELECT * FRO... Playlists" />
+                <marker date="1493659179531" expanded="true" signature="11343:11403" ph="SELECT * FRO... Albums" />
+                <marker date="1493659179531" expanded="true" signature="11922:11978" ph="SELECT * FRO... Songs" />
+                <marker date="1493659179531" expanded="true" signature="12348:12671" ph="SELECT Playl... PlaylistSongs" />
+                <marker date="1493659179531" expanded="true" signature="13332:13371" ph="UPDATE Songs... " />
+                <marker date="1493659179531" expanded="true" signature="16454:16495" ph="SELECT * FRO... Songs" />
+                <marker date="1493659179531" expanded="true" signature="16695:16738" ph="SELECT * FRO... Albums" />
+                <marker date="1493659179531" expanded="true" signature="16940:16985" ph="SELECT * FRO... Artists" />
+                <marker date="1493659179531" expanded="true" signature="17158:17203" ph="SELECT * FRO... Playlists" />
+                <marker date="1493659179531" expanded="true" signature="17479:17525" ph="DELETE FROM " />
+                <marker date="1493659179531" expanded="true" signature="17570:17625" ph="SELECT * FRO... Songs" />
+                <marker date="1493659179531" expanded="true" signature="17725:17796" ph="SELECT Playl... PlaylistSongs" />
+                <marker date="1493659179531" expanded="true" signature="17906:17977" ph="SELECT Playl... PlaylistSongs" />
+                <marker date="1493659179531" expanded="true" signature="18141:18180" ph="INSERT INTO PlaylistSongs... " />
+                <marker date="1493659179531" expanded="true" signature="18377:18415" ph="SELECT * FRO... Playlists" />
+                <marker date="1493659179531" expanded="true" signature="19421:19458" ph="SELECT * FRO... Users" />
+                <marker date="1493659179531" expanded="true" signature="20631:20649" ph="DELETE FROM " />
+                <marker date="1493659179531" expanded="true" signature="20677:20696" ph="DELETE FROM " />
+                <marker date="1493659179531" expanded="true" signature="20724:20741" ph="DELETE FROM " />
+                <marker date="1493659179531" expanded="true" signature="21833:21890" ph="SELECT COUNT... Artists" />
+                <marker date="1493659179531" expanded="true" signature="22226:22263" ph="select COUNT... Artists" />
+                <marker date="1493659179531" expanded="true" signature="22600:22633" ph="INSERT INTO Artists... " />
+                <marker date="1493659179531" expanded="true" signature="22927:22975" ph="select Artis... Artists" />
+                <marker date="1493659179531" expanded="true" signature="23212:23267" ph="SELECT COUNT... Albums" />
+                <marker date="1493659179531" expanded="true" signature="23596:23631" ph="SELECT COUNT... Albums" />
+                <marker date="1493659179531" expanded="true" signature="23958:23992" ph="INSERT INTO Albums... " />
+                <marker date="1493659179531" expanded="true" signature="24389:24433" ph="select Album... Albums" />
+                <marker date="1493659179531" expanded="true" signature="25381:25424" ph="INSERT INTO Songs... " />
+                <marker date="1493659179531" expanded="true" signature="26266:26300" ph="DELETE FROM " />
+                <marker date="1493659179531" expanded="true" signature="26528:26579" ph="UPDATE Users... " />
+                <marker date="1493659179531" expanded="true" signature="26688:26739" ph="UPDATE Users... " />
+                <marker date="1493659179531" expanded="true" signature="28392:28463" ph="SELECT Playl... PlaylistSongs" />
+                <marker date="1493659179531" expanded="true" signature="28668:28708" ph="INSERT INTO PlaylistSongs... " />
+                <marker date="1493659179531" expanded="true" signature="29033:29094" ph="DELETE FROM " />
+                <marker date="1493659179531" expanded="true" signature="29414:29655" ph="SELECT Playl... PlaylistSongs" />
+                <marker date="1493659179531" expanded="true" signature="29870:29889" ph="SELECT * FRO... Songs" />
+                <marker date="1493659179531" expanded="true" signature="31540:31590" ph="SELECT * FRO... Playlists" />
+                <marker date="1493659179531" expanded="true" signature="32291:32348" ph="SELECT Playl... Playlists" />
+                <marker date="1493659179531" expanded="true" signature="32426:32464" ph="INSERT INTO Playlists... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.Users" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/60a01bd1/8a570770-b80f-411c-aad3-bbac2f187f41/main.Users">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,8 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -130,11 +186,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -147,6 +206,183 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Python.Project Bronx">
+    <configuration default="false" name="Project Bronx" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project Bronx.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="Code" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.Project Bronx" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.Project Bronx" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -172,24 +408,24 @@
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14393125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17400645" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -210,58 +446,536 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Project Bronx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
+        <state relative-caret-position="4641">
+          <caret line="230" column="29" lean-forward="false" selection-start-line="230" selection-start-column="29" selection-end-line="230" selection-end-column="29" />
+          <folding>
+            <marker date="1493659179531" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
+            <marker date="1493659179531" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
+            <marker date="1493659179531" expanded="true" signature="3087:3128" ph="select UserI... Users" />
+            <marker date="1493659179531" expanded="true" signature="3295:3343" ph="SELECT Admin... Users" />
+            <marker date="1493659179531" expanded="true" signature="5194:5239" ph="SELECT UserI... Users" />
+            <marker date="1493659179531" expanded="true" signature="5477:5527" ph="select COUNT... Users" />
+            <marker date="1493659179531" expanded="true" signature="6010:6043" ph="INSERT INTO Users... " />
+            <marker date="1493659179531" expanded="true" signature="9477:9514" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="9960:10003" ph="SELECT * FRO... Albums" />
+            <marker date="1493659179531" expanded="true" signature="10434:10479" ph="SELECT * FRO... Artists" />
+            <marker date="1493659179531" expanded="true" signature="10952:11002" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="11343:11403" ph="SELECT * FRO... Albums" />
+            <marker date="1493659179531" expanded="true" signature="11922:11978" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="12348:12671" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="13332:13371" ph="UPDATE Songs... " />
+            <marker date="1493659179531" expanded="true" signature="16454:16495" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="16695:16738" ph="SELECT * FRO... Albums" />
+            <marker date="1493659179531" expanded="true" signature="16940:16985" ph="SELECT * FRO... Artists" />
+            <marker date="1493659179531" expanded="true" signature="17158:17203" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="17479:17525" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="17570:17625" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="17725:17796" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="17906:17977" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="18141:18180" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493659179531" expanded="true" signature="18377:18415" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="19421:19458" ph="SELECT * FRO... Users" />
+            <marker date="1493659179531" expanded="true" signature="20631:20649" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="20677:20696" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="20724:20741" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="21833:21890" ph="SELECT COUNT... Artists" />
+            <marker date="1493659179531" expanded="true" signature="22226:22263" ph="select COUNT... Artists" />
+            <marker date="1493659179531" expanded="true" signature="22600:22633" ph="INSERT INTO Artists... " />
+            <marker date="1493659179531" expanded="true" signature="22927:22975" ph="select Artis... Artists" />
+            <marker date="1493659179531" expanded="true" signature="23212:23267" ph="SELECT COUNT... Albums" />
+            <marker date="1493659179531" expanded="true" signature="23596:23631" ph="SELECT COUNT... Albums" />
+            <marker date="1493659179531" expanded="true" signature="23958:23992" ph="INSERT INTO Albums... " />
+            <marker date="1493659179531" expanded="true" signature="24389:24433" ph="select Album... Albums" />
+            <marker date="1493659179531" expanded="true" signature="25381:25424" ph="INSERT INTO Songs... " />
+            <marker date="1493659179531" expanded="true" signature="26266:26300" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="26528:26579" ph="UPDATE Users... " />
+            <marker date="1493659179531" expanded="true" signature="26688:26739" ph="UPDATE Users... " />
+            <marker date="1493659179531" expanded="true" signature="28392:28463" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="28668:28708" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493659179531" expanded="true" signature="29033:29094" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="29414:29655" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="29870:29889" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="31540:31590" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="32291:32348" ph="SELECT Playl... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="32426:32464" ph="INSERT INTO Playlists... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/60a01bd1/8a570770-b80f-411c-aad3-bbac2f187f41/main.Songs">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project Bronx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1493376177921" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
-            <marker date="1493376177921" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
-            <marker date="1493376177921" expanded="true" signature="3087:3128" ph="select UserI... Users" />
-            <marker date="1493376177921" expanded="true" signature="3295:3343" ph="SELECT Admin... Users" />
-            <marker date="1493376177921" expanded="true" signature="4661:4706" ph="SELECT UserI... Users" />
-            <marker date="1493376177921" expanded="true" signature="4928:4978" ph="select COUNT... Users" />
-            <marker date="1493376177921" expanded="true" signature="5425:5458" ph="INSERT INTO Users... " />
-            <marker date="1493376177921" expanded="true" signature="8884:8921" ph="SELECT * FRO... Songs" />
-            <marker date="1493376177921" expanded="true" signature="9367:9410" ph="SELECT * FRO... Albums" />
-            <marker date="1493376177921" expanded="true" signature="9841:9886" ph="SELECT * FRO... Artists" />
-            <marker date="1493376177921" expanded="true" signature="10359:10409" ph="SELECT * FRO... Playlists" />
-            <marker date="1493376177921" expanded="true" signature="10750:10810" ph="SELECT * FRO... Albums" />
-            <marker date="1493376177921" expanded="true" signature="11329:11385" ph="SELECT * FRO... Songs" />
-            <marker date="1493376177921" expanded="true" signature="11755:12078" ph="SELECT Playl... PlaylistSongs" />
-            <marker date="1493376177921" expanded="true" signature="12739:12778" ph="UPDATE Songs... " />
-            <marker date="1493376177921" expanded="true" signature="15861:15902" ph="SELECT * FRO... Songs" />
-            <marker date="1493376177921" expanded="true" signature="16102:16145" ph="SELECT * FRO... Albums" />
-            <marker date="1493376177921" expanded="true" signature="16347:16392" ph="SELECT * FRO... Artists" />
-            <marker date="1493376177921" expanded="true" signature="16565:16610" ph="SELECT * FRO... Playlists" />
-            <marker date="1493376177921" expanded="true" signature="16886:16932" ph="DELETE FROM " />
-            <marker date="1493376177921" expanded="true" signature="16977:17032" ph="SELECT * FRO... Songs" />
-            <marker date="1493376177921" expanded="true" signature="17132:17203" ph="SELECT Playl... PlaylistSongs" />
-            <marker date="1493376177921" expanded="true" signature="17313:17384" ph="SELECT Playl... PlaylistSongs" />
-            <marker date="1493376177921" expanded="true" signature="17548:17587" ph="INSERT INTO PlaylistSongs... " />
-            <marker date="1493376177921" expanded="true" signature="17784:17822" ph="SELECT * FRO... Playlists" />
-            <marker date="1493376177921" expanded="true" signature="18775:18812" ph="SELECT * FRO... Users" />
-            <marker date="1493376177921" expanded="true" signature="19985:20003" ph="DELETE FROM " />
-            <marker date="1493376177921" expanded="true" signature="20031:20050" ph="DELETE FROM " />
-            <marker date="1493376177921" expanded="true" signature="20078:20095" ph="DELETE FROM " />
-            <marker date="1493376177921" expanded="true" signature="21130:21187" ph="SELECT COUNT... Artists" />
-            <marker date="1493376177921" expanded="true" signature="21523:21560" ph="select COUNT... Artists" />
-            <marker date="1493376177921" expanded="true" signature="21897:21930" ph="INSERT INTO Artists... " />
-            <marker date="1493376177921" expanded="true" signature="22224:22272" ph="select Artis... Artists" />
-            <marker date="1493376177921" expanded="true" signature="22509:22564" ph="SELECT COUNT... Albums" />
-            <marker date="1493376177921" expanded="true" signature="22893:22928" ph="SELECT COUNT... Albums" />
-            <marker date="1493376177921" expanded="true" signature="23255:23289" ph="INSERT INTO Albums... " />
-            <marker date="1493376177921" expanded="true" signature="23686:23730" ph="select Album... Albums" />
-            <marker date="1493376177921" expanded="true" signature="24609:24652" ph="INSERT INTO Songs... " />
-            <marker date="1493376177921" expanded="true" signature="25494:25528" ph="DELETE FROM " />
-            <marker date="1493376177921" expanded="true" signature="25756:25807" ph="UPDATE Users... " />
-            <marker date="1493376177921" expanded="true" signature="25916:25967" ph="UPDATE Users... " />
-            <marker date="1493376177921" expanded="true" signature="27620:27691" ph="SELECT Playl... PlaylistSongs" />
-            <marker date="1493376177921" expanded="true" signature="27896:27936" ph="INSERT INTO PlaylistSongs... " />
-            <marker date="1493376177921" expanded="true" signature="28261:28322" ph="DELETE FROM " />
-            <marker date="1493376177921" expanded="true" signature="28642:28883" ph="SELECT Playl... PlaylistSongs" />
-            <marker date="1493376177921" expanded="true" signature="29098:29117" ph="SELECT * FRO... Songs" />
-            <marker date="1493376177921" expanded="true" signature="30768:30818" ph="SELECT * FRO... Playlists" />
-            <marker date="1493376177921" expanded="true" signature="31519:31576" ph="SELECT Playl... Playlists" />
-            <marker date="1493376177921" expanded="true" signature="31654:31692" ph="INSERT INTO Playlists... " />
+            <marker date="1493659179531" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
+            <marker date="1493659179531" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
+            <marker date="1493659179531" expanded="true" signature="3087:3128" ph="select UserI... Users" />
+            <marker date="1493659179531" expanded="true" signature="3295:3343" ph="SELECT Admin... Users" />
+            <marker date="1493659179531" expanded="true" signature="5194:5239" ph="SELECT UserI... Users" />
+            <marker date="1493659179531" expanded="true" signature="5477:5527" ph="select COUNT... Users" />
+            <marker date="1493659179531" expanded="true" signature="6010:6043" ph="INSERT INTO Users... " />
+            <marker date="1493659179531" expanded="true" signature="9477:9514" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="9960:10003" ph="SELECT * FRO... Albums" />
+            <marker date="1493659179531" expanded="true" signature="10434:10479" ph="SELECT * FRO... Artists" />
+            <marker date="1493659179531" expanded="true" signature="10952:11002" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="11343:11403" ph="SELECT * FRO... Albums" />
+            <marker date="1493659179531" expanded="true" signature="11922:11978" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="12348:12671" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="13332:13371" ph="UPDATE Songs... " />
+            <marker date="1493659179531" expanded="true" signature="16454:16495" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="16695:16738" ph="SELECT * FRO... Albums" />
+            <marker date="1493659179531" expanded="true" signature="16940:16985" ph="SELECT * FRO... Artists" />
+            <marker date="1493659179531" expanded="true" signature="17158:17203" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="17479:17525" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="17570:17625" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="17725:17796" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="17906:17977" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="18141:18180" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493659179531" expanded="true" signature="18377:18415" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="19421:19458" ph="SELECT * FRO... Users" />
+            <marker date="1493659179531" expanded="true" signature="20631:20649" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="20677:20696" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="20724:20741" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="21833:21890" ph="SELECT COUNT... Artists" />
+            <marker date="1493659179531" expanded="true" signature="22226:22263" ph="select COUNT... Artists" />
+            <marker date="1493659179531" expanded="true" signature="22600:22633" ph="INSERT INTO Artists... " />
+            <marker date="1493659179531" expanded="true" signature="22927:22975" ph="select Artis... Artists" />
+            <marker date="1493659179531" expanded="true" signature="23212:23267" ph="SELECT COUNT... Albums" />
+            <marker date="1493659179531" expanded="true" signature="23596:23631" ph="SELECT COUNT... Albums" />
+            <marker date="1493659179531" expanded="true" signature="23958:23992" ph="INSERT INTO Albums... " />
+            <marker date="1493659179531" expanded="true" signature="24389:24433" ph="select Album... Albums" />
+            <marker date="1493659179531" expanded="true" signature="25381:25424" ph="INSERT INTO Songs... " />
+            <marker date="1493659179531" expanded="true" signature="26266:26300" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="26528:26579" ph="UPDATE Users... " />
+            <marker date="1493659179531" expanded="true" signature="26688:26739" ph="UPDATE Users... " />
+            <marker date="1493659179531" expanded="true" signature="28392:28463" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="28668:28708" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493659179531" expanded="true" signature="29033:29094" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="29414:29655" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="29870:29889" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="31540:31590" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="32291:32348" ph="SELECT Playl... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="32426:32464" ph="INSERT INTO Playlists... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project Bronx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493659179531" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
+            <marker date="1493659179531" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
+            <marker date="1493659179531" expanded="true" signature="3087:3128" ph="select UserI... Users" />
+            <marker date="1493659179531" expanded="true" signature="3295:3343" ph="SELECT Admin... Users" />
+            <marker date="1493659179531" expanded="true" signature="5194:5239" ph="SELECT UserI... Users" />
+            <marker date="1493659179531" expanded="true" signature="5477:5527" ph="select COUNT... Users" />
+            <marker date="1493659179531" expanded="true" signature="6010:6043" ph="INSERT INTO Users... " />
+            <marker date="1493659179531" expanded="true" signature="9477:9514" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="9960:10003" ph="SELECT * FRO... Albums" />
+            <marker date="1493659179531" expanded="true" signature="10434:10479" ph="SELECT * FRO... Artists" />
+            <marker date="1493659179531" expanded="true" signature="10952:11002" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="11343:11403" ph="SELECT * FRO... Albums" />
+            <marker date="1493659179531" expanded="true" signature="11922:11978" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="12348:12671" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="13332:13371" ph="UPDATE Songs... " />
+            <marker date="1493659179531" expanded="true" signature="16454:16495" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="16695:16738" ph="SELECT * FRO... Albums" />
+            <marker date="1493659179531" expanded="true" signature="16940:16985" ph="SELECT * FRO... Artists" />
+            <marker date="1493659179531" expanded="true" signature="17158:17203" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="17479:17525" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="17570:17625" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="17725:17796" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="17906:17977" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="18141:18180" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493659179531" expanded="true" signature="18377:18415" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="19421:19458" ph="SELECT * FRO... Users" />
+            <marker date="1493659179531" expanded="true" signature="20631:20649" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="20677:20696" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="20724:20741" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="21833:21890" ph="SELECT COUNT... Artists" />
+            <marker date="1493659179531" expanded="true" signature="22226:22263" ph="select COUNT... Artists" />
+            <marker date="1493659179531" expanded="true" signature="22600:22633" ph="INSERT INTO Artists... " />
+            <marker date="1493659179531" expanded="true" signature="22927:22975" ph="select Artis... Artists" />
+            <marker date="1493659179531" expanded="true" signature="23212:23267" ph="SELECT COUNT... Albums" />
+            <marker date="1493659179531" expanded="true" signature="23596:23631" ph="SELECT COUNT... Albums" />
+            <marker date="1493659179531" expanded="true" signature="23958:23992" ph="INSERT INTO Albums... " />
+            <marker date="1493659179531" expanded="true" signature="24389:24433" ph="select Album... Albums" />
+            <marker date="1493659179531" expanded="true" signature="25381:25424" ph="INSERT INTO Songs... " />
+            <marker date="1493659179531" expanded="true" signature="26266:26300" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="26528:26579" ph="UPDATE Users... " />
+            <marker date="1493659179531" expanded="true" signature="26688:26739" ph="UPDATE Users... " />
+            <marker date="1493659179531" expanded="true" signature="28392:28463" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="28668:28708" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493659179531" expanded="true" signature="29033:29094" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="29414:29655" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="29870:29889" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="31540:31590" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="32291:32348" ph="SELECT Playl... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="32426:32464" ph="INSERT INTO Playlists... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project Bronx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493659179531" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
+            <marker date="1493659179531" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
+            <marker date="1493659179531" expanded="true" signature="3087:3128" ph="select UserI... Users" />
+            <marker date="1493659179531" expanded="true" signature="3295:3343" ph="SELECT Admin... Users" />
+            <marker date="1493659179531" expanded="true" signature="5194:5239" ph="SELECT UserI... Users" />
+            <marker date="1493659179531" expanded="true" signature="5477:5527" ph="select COUNT... Users" />
+            <marker date="1493659179531" expanded="true" signature="6010:6043" ph="INSERT INTO Users... " />
+            <marker date="1493659179531" expanded="true" signature="9477:9514" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="9960:10003" ph="SELECT * FRO... Albums" />
+            <marker date="1493659179531" expanded="true" signature="10434:10479" ph="SELECT * FRO... Artists" />
+            <marker date="1493659179531" expanded="true" signature="10952:11002" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="11343:11403" ph="SELECT * FRO... Albums" />
+            <marker date="1493659179531" expanded="true" signature="11922:11978" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="12348:12671" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="13332:13371" ph="UPDATE Songs... " />
+            <marker date="1493659179531" expanded="true" signature="16454:16495" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="16695:16738" ph="SELECT * FRO... Albums" />
+            <marker date="1493659179531" expanded="true" signature="16940:16985" ph="SELECT * FRO... Artists" />
+            <marker date="1493659179531" expanded="true" signature="17158:17203" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="17479:17525" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="17570:17625" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="17725:17796" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="17906:17977" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="18141:18180" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493659179531" expanded="true" signature="18377:18415" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="19421:19458" ph="SELECT * FRO... Users" />
+            <marker date="1493659179531" expanded="true" signature="20631:20649" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="20677:20696" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="20724:20741" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="21833:21890" ph="SELECT COUNT... Artists" />
+            <marker date="1493659179531" expanded="true" signature="22226:22263" ph="select COUNT... Artists" />
+            <marker date="1493659179531" expanded="true" signature="22600:22633" ph="INSERT INTO Artists... " />
+            <marker date="1493659179531" expanded="true" signature="22927:22975" ph="select Artis... Artists" />
+            <marker date="1493659179531" expanded="true" signature="23212:23267" ph="SELECT COUNT... Albums" />
+            <marker date="1493659179531" expanded="true" signature="23596:23631" ph="SELECT COUNT... Albums" />
+            <marker date="1493659179531" expanded="true" signature="23958:23992" ph="INSERT INTO Albums... " />
+            <marker date="1493659179531" expanded="true" signature="24389:24433" ph="select Album... Albums" />
+            <marker date="1493659179531" expanded="true" signature="25381:25424" ph="INSERT INTO Songs... " />
+            <marker date="1493659179531" expanded="true" signature="26266:26300" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="26528:26579" ph="UPDATE Users... " />
+            <marker date="1493659179531" expanded="true" signature="26688:26739" ph="UPDATE Users... " />
+            <marker date="1493659179531" expanded="true" signature="28392:28463" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="28668:28708" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493659179531" expanded="true" signature="29033:29094" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="29414:29655" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="29870:29889" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="31540:31590" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="32291:32348" ph="SELECT Playl... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="32426:32464" ph="INSERT INTO Playlists... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project Bronx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493659179531" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
+            <marker date="1493659179531" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
+            <marker date="1493659179531" expanded="true" signature="3087:3128" ph="select UserI... Users" />
+            <marker date="1493659179531" expanded="true" signature="3295:3343" ph="SELECT Admin... Users" />
+            <marker date="1493659179531" expanded="true" signature="5194:5239" ph="SELECT UserI... Users" />
+            <marker date="1493659179531" expanded="true" signature="5477:5527" ph="select COUNT... Users" />
+            <marker date="1493659179531" expanded="true" signature="6010:6043" ph="INSERT INTO Users... " />
+            <marker date="1493659179531" expanded="true" signature="9477:9514" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="9960:10003" ph="SELECT * FRO... Albums" />
+            <marker date="1493659179531" expanded="true" signature="10434:10479" ph="SELECT * FRO... Artists" />
+            <marker date="1493659179531" expanded="true" signature="10952:11002" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="11343:11403" ph="SELECT * FRO... Albums" />
+            <marker date="1493659179531" expanded="true" signature="11922:11978" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="12348:12671" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="13332:13371" ph="UPDATE Songs... " />
+            <marker date="1493659179531" expanded="true" signature="16454:16495" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="16695:16738" ph="SELECT * FRO... Albums" />
+            <marker date="1493659179531" expanded="true" signature="16940:16985" ph="SELECT * FRO... Artists" />
+            <marker date="1493659179531" expanded="true" signature="17158:17203" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="17479:17525" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="17570:17625" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="17725:17796" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="17906:17977" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="18141:18180" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493659179531" expanded="true" signature="18377:18415" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="19421:19458" ph="SELECT * FRO... Users" />
+            <marker date="1493659179531" expanded="true" signature="20631:20649" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="20677:20696" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="20724:20741" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="21833:21890" ph="SELECT COUNT... Artists" />
+            <marker date="1493659179531" expanded="true" signature="22226:22263" ph="select COUNT... Artists" />
+            <marker date="1493659179531" expanded="true" signature="22600:22633" ph="INSERT INTO Artists... " />
+            <marker date="1493659179531" expanded="true" signature="22927:22975" ph="select Artis... Artists" />
+            <marker date="1493659179531" expanded="true" signature="23212:23267" ph="SELECT COUNT... Albums" />
+            <marker date="1493659179531" expanded="true" signature="23596:23631" ph="SELECT COUNT... Albums" />
+            <marker date="1493659179531" expanded="true" signature="23958:23992" ph="INSERT INTO Albums... " />
+            <marker date="1493659179531" expanded="true" signature="24389:24433" ph="select Album... Albums" />
+            <marker date="1493659179531" expanded="true" signature="25381:25424" ph="INSERT INTO Songs... " />
+            <marker date="1493659179531" expanded="true" signature="26266:26300" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="26528:26579" ph="UPDATE Users... " />
+            <marker date="1493659179531" expanded="true" signature="26688:26739" ph="UPDATE Users... " />
+            <marker date="1493659179531" expanded="true" signature="28392:28463" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="28668:28708" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493659179531" expanded="true" signature="29033:29094" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="29414:29655" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="29870:29889" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="31540:31590" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="32291:32348" ph="SELECT Playl... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="32426:32464" ph="INSERT INTO Playlists... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project Bronx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493659179531" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
+            <marker date="1493659179531" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
+            <marker date="1493659179531" expanded="true" signature="3087:3128" ph="select UserI... Users" />
+            <marker date="1493659179531" expanded="true" signature="3295:3343" ph="SELECT Admin... Users" />
+            <marker date="1493659179531" expanded="true" signature="5194:5239" ph="SELECT UserI... Users" />
+            <marker date="1493659179531" expanded="true" signature="5477:5527" ph="select COUNT... Users" />
+            <marker date="1493659179531" expanded="true" signature="6010:6043" ph="INSERT INTO Users... " />
+            <marker date="1493659179531" expanded="true" signature="9477:9514" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="9960:10003" ph="SELECT * FRO... Albums" />
+            <marker date="1493659179531" expanded="true" signature="10434:10479" ph="SELECT * FRO... Artists" />
+            <marker date="1493659179531" expanded="true" signature="10952:11002" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="11343:11403" ph="SELECT * FRO... Albums" />
+            <marker date="1493659179531" expanded="true" signature="11922:11978" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="12348:12671" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="13332:13371" ph="UPDATE Songs... " />
+            <marker date="1493659179531" expanded="true" signature="16454:16495" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="16695:16738" ph="SELECT * FRO... Albums" />
+            <marker date="1493659179531" expanded="true" signature="16940:16985" ph="SELECT * FRO... Artists" />
+            <marker date="1493659179531" expanded="true" signature="17158:17203" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="17479:17525" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="17570:17625" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="17725:17796" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="17906:17977" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="18141:18180" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493659179531" expanded="true" signature="18377:18415" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="19421:19458" ph="SELECT * FRO... Users" />
+            <marker date="1493659179531" expanded="true" signature="20631:20649" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="20677:20696" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="20724:20741" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="21833:21890" ph="SELECT COUNT... Artists" />
+            <marker date="1493659179531" expanded="true" signature="22226:22263" ph="select COUNT... Artists" />
+            <marker date="1493659179531" expanded="true" signature="22600:22633" ph="INSERT INTO Artists... " />
+            <marker date="1493659179531" expanded="true" signature="22927:22975" ph="select Artis... Artists" />
+            <marker date="1493659179531" expanded="true" signature="23212:23267" ph="SELECT COUNT... Albums" />
+            <marker date="1493659179531" expanded="true" signature="23596:23631" ph="SELECT COUNT... Albums" />
+            <marker date="1493659179531" expanded="true" signature="23958:23992" ph="INSERT INTO Albums... " />
+            <marker date="1493659179531" expanded="true" signature="24389:24433" ph="select Album... Albums" />
+            <marker date="1493659179531" expanded="true" signature="25381:25424" ph="INSERT INTO Songs... " />
+            <marker date="1493659179531" expanded="true" signature="26266:26300" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="26528:26579" ph="UPDATE Users... " />
+            <marker date="1493659179531" expanded="true" signature="26688:26739" ph="UPDATE Users... " />
+            <marker date="1493659179531" expanded="true" signature="28392:28463" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="28668:28708" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493659179531" expanded="true" signature="29033:29094" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="29414:29655" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="29870:29889" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="31540:31590" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="32291:32348" ph="SELECT Playl... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="32426:32464" ph="INSERT INTO Playlists... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project Bronx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493659179531" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
+            <marker date="1493659179531" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
+            <marker date="1493659179531" expanded="true" signature="3087:3128" ph="select UserI... Users" />
+            <marker date="1493659179531" expanded="true" signature="3295:3343" ph="SELECT Admin... Users" />
+            <marker date="1493659179531" expanded="true" signature="5194:5239" ph="SELECT UserI... Users" />
+            <marker date="1493659179531" expanded="true" signature="5477:5527" ph="select COUNT... Users" />
+            <marker date="1493659179531" expanded="true" signature="6010:6043" ph="INSERT INTO Users... " />
+            <marker date="1493659179531" expanded="true" signature="9477:9514" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="9960:10003" ph="SELECT * FRO... Albums" />
+            <marker date="1493659179531" expanded="true" signature="10434:10479" ph="SELECT * FRO... Artists" />
+            <marker date="1493659179531" expanded="true" signature="10952:11002" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="11343:11403" ph="SELECT * FRO... Albums" />
+            <marker date="1493659179531" expanded="true" signature="11922:11978" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="12348:12671" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="13332:13371" ph="UPDATE Songs... " />
+            <marker date="1493659179531" expanded="true" signature="16454:16495" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="16695:16738" ph="SELECT * FRO... Albums" />
+            <marker date="1493659179531" expanded="true" signature="16940:16985" ph="SELECT * FRO... Artists" />
+            <marker date="1493659179531" expanded="true" signature="17158:17203" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="17479:17525" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="17570:17625" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="17725:17796" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="17906:17977" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="18141:18180" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493659179531" expanded="true" signature="18377:18415" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="19421:19458" ph="SELECT * FRO... Users" />
+            <marker date="1493659179531" expanded="true" signature="20631:20649" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="20677:20696" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="20724:20741" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="21833:21890" ph="SELECT COUNT... Artists" />
+            <marker date="1493659179531" expanded="true" signature="22226:22263" ph="select COUNT... Artists" />
+            <marker date="1493659179531" expanded="true" signature="22600:22633" ph="INSERT INTO Artists... " />
+            <marker date="1493659179531" expanded="true" signature="22927:22975" ph="select Artis... Artists" />
+            <marker date="1493659179531" expanded="true" signature="23212:23267" ph="SELECT COUNT... Albums" />
+            <marker date="1493659179531" expanded="true" signature="23596:23631" ph="SELECT COUNT... Albums" />
+            <marker date="1493659179531" expanded="true" signature="23958:23992" ph="INSERT INTO Albums... " />
+            <marker date="1493659179531" expanded="true" signature="24389:24433" ph="select Album... Albums" />
+            <marker date="1493659179531" expanded="true" signature="25381:25424" ph="INSERT INTO Songs... " />
+            <marker date="1493659179531" expanded="true" signature="26266:26300" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="26528:26579" ph="UPDATE Users... " />
+            <marker date="1493659179531" expanded="true" signature="26688:26739" ph="UPDATE Users... " />
+            <marker date="1493659179531" expanded="true" signature="28392:28463" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="28668:28708" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493659179531" expanded="true" signature="29033:29094" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="29414:29655" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="29870:29889" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="31540:31590" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="32291:32348" ph="SELECT Playl... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="32426:32464" ph="INSERT INTO Playlists... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8a570770-b80f-411c-aad3-bbac2f187f41/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/8a570770-b80f-411c-aad3-bbac2f187f41.SCHEMA:main">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>8a570770-b80f-411c-aad3-bbac2f187f41.SCHEMA:main</OriginalElement>
+          <nodes>
+            <node x="" y="">8a570770-b80f-411c-aad3-bbac2f187f41.TABLE:main.Songs</node>
+            <node x="" y="">8a570770-b80f-411c-aad3-bbac2f187f41.TABLE:main.PlaylistSongs</node>
+            <node x="" y="">8a570770-b80f-411c-aad3-bbac2f187f41.TABLE:main.Albums</node>
+            <node x="" y="">8a570770-b80f-411c-aad3-bbac2f187f41.TABLE:main.Artists</node>
+            <node x="" y="">8a570770-b80f-411c-aad3-bbac2f187f41.TABLE:main.Users</node>
+            <node x="" y="">8a570770-b80f-411c-aad3-bbac2f187f41.TABLE:main.Playlists</node>
+            <node x="" y="">8a570770-b80f-411c-aad3-bbac2f187f41.TABLE:main.sqlite_master</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8999999999999974" x="344.0" y="422.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/60a01bd1/8a570770-b80f-411c-aad3-bbac2f187f41/main.Songs">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/60a01bd1/8a570770-b80f-411c-aad3-bbac2f187f41/main.Users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project Bronx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <marker date="1493659179531" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
+            <marker date="1493659179531" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
+            <marker date="1493659179531" expanded="true" signature="3087:3128" ph="select UserI... Users" />
+            <marker date="1493659179531" expanded="true" signature="3295:3343" ph="SELECT Admin... Users" />
+            <marker date="1493659179531" expanded="true" signature="5194:5239" ph="SELECT UserI... Users" />
+            <marker date="1493659179531" expanded="true" signature="5477:5527" ph="select COUNT... Users" />
+            <marker date="1493659179531" expanded="true" signature="6010:6043" ph="INSERT INTO Users... " />
+            <marker date="1493659179531" expanded="true" signature="9477:9514" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="9960:10003" ph="SELECT * FRO... Albums" />
+            <marker date="1493659179531" expanded="true" signature="10434:10479" ph="SELECT * FRO... Artists" />
+            <marker date="1493659179531" expanded="true" signature="10952:11002" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="11343:11403" ph="SELECT * FRO... Albums" />
+            <marker date="1493659179531" expanded="true" signature="11922:11978" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="12348:12671" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="13332:13371" ph="UPDATE Songs... " />
+            <marker date="1493659179531" expanded="true" signature="16454:16495" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="16695:16738" ph="SELECT * FRO... Albums" />
+            <marker date="1493659179531" expanded="true" signature="16940:16985" ph="SELECT * FRO... Artists" />
+            <marker date="1493659179531" expanded="true" signature="17158:17203" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="17479:17525" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="17570:17625" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="17725:17796" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="17906:17977" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="18141:18180" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493659179531" expanded="true" signature="18377:18415" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="19421:19458" ph="SELECT * FRO... Users" />
+            <marker date="1493659179531" expanded="true" signature="20631:20649" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="20677:20696" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="20724:20741" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="21833:21890" ph="SELECT COUNT... Artists" />
+            <marker date="1493659179531" expanded="true" signature="22226:22263" ph="select COUNT... Artists" />
+            <marker date="1493659179531" expanded="true" signature="22600:22633" ph="INSERT INTO Artists... " />
+            <marker date="1493659179531" expanded="true" signature="22927:22975" ph="select Artis... Artists" />
+            <marker date="1493659179531" expanded="true" signature="23212:23267" ph="SELECT COUNT... Albums" />
+            <marker date="1493659179531" expanded="true" signature="23596:23631" ph="SELECT COUNT... Albums" />
+            <marker date="1493659179531" expanded="true" signature="23958:23992" ph="INSERT INTO Albums... " />
+            <marker date="1493659179531" expanded="true" signature="24389:24433" ph="select Album... Albums" />
+            <marker date="1493659179531" expanded="true" signature="25381:25424" ph="INSERT INTO Songs... " />
+            <marker date="1493659179531" expanded="true" signature="26266:26300" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="26528:26579" ph="UPDATE Users... " />
+            <marker date="1493659179531" expanded="true" signature="26688:26739" ph="UPDATE Users... " />
+            <marker date="1493659179531" expanded="true" signature="28392:28463" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="28668:28708" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493659179531" expanded="true" signature="29033:29094" ph="DELETE FROM " />
+            <marker date="1493659179531" expanded="true" signature="29414:29655" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493659179531" expanded="true" signature="29870:29889" ph="SELECT * FRO... Songs" />
+            <marker date="1493659179531" expanded="true" signature="31540:31590" ph="SELECT * FRO... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="32291:32348" ph="SELECT Playl... Playlists" />
+            <marker date="1493659179531" expanded="true" signature="32426:32464" ph="INSERT INTO Playlists... " />
           </folding>
         </state>
       </provider>

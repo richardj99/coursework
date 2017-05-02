@@ -79,9 +79,9 @@
    <widget class="QLabel" name="lbl_info">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>0</x>
       <y>150</y>
-      <width>211</width>
+      <width>381</width>
       <height>20</height>
      </rect>
     </property>
