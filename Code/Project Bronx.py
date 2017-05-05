@@ -104,29 +104,29 @@ class CreateAccountWindowClass(QtGui.QMainWindow, ui_createAccountWindow):
 class MainWindowClass(QtGui.QMainWindow, ui_mainWindow):
     def __init__(self, parent=None):
         mixer.init()  # Starts mixer from pygame for music playback
-        QtGui.QMainWindow.__init__(self, parent)
-        self.setupUi(self)
-        self.lst_data = []
-        self.model = QtGui.QStandardItemModel(self)
-        self.tbl_songs.setModel(self.model)
+        QtGui.QMainWindow.__init__(self, parent)  # pyqt initialisation code
+        self.setupUi(self)  # pyqt user interface setup
+        self.lst_data = []  # self variable declared, holds retrieved data from tbl_songs
+        self.model = QtGui.QStandardItemModel(self)  # declares model used for tbl_songs
+        self.tbl_songs.setModel(self.model)  # tbl_songs model set
         self.btn_settings.clicked.connect(self.settings)  # settings button programmed
         self.btn_albums.clicked.connect(self.albums)  # Albums button programmed
         self.btn_songs.clicked.connect(self.songs)  # Songs button programmed
         self.btn_artists.clicked.connect(self.artists)  # Artists button programmed
         self.btn_play.clicked.connect(self.play)  # Play button programmed
         self.btn_pause.clicked.connect(self.pause)  # Pause button programmed
-        self.btn_playlists.clicked.connect(self.playlists)
-        self.btn_search.clicked.connect(self.search)
-        self.btn_forward.clicked.connect(self.skipForward)
-        self.btn_back.clicked.connect(self.skipBackward)
+        self.btn_playlists.clicked.connect(self.playlists)  # playlists button programmed
+        self.btn_search.clicked.connect(self.search)  # search button programmed
+        self.btn_forward.clicked.connect(self.skipForward)  # skip forward button programmed
+        self.btn_back.clicked.connect(self.skipBackward)  # skip backward button programmed
         self.tbl_songs.doubleClicked.connect(self.retrieve_row)  # Table interaction programmed
-        self.btn_plylstmngr.clicked.connect(self.playlistManager)
-        self.btn_exit.clicked.connect(self.exit)
-        self.queue_next = []
-        self.stack_prev = []
-        self.int_songSkip = 0
-        self.bool_songsQueued = False
-        self.lst_nowPlaying = []
+        self.btn_plylstmngr.clicked.connect(self.playlistManager)  # playlist manager button programmed
+        self.btn_exit.clicked.connect(self.exit)  # exit button programmed
+        self.queue_next = []  # self list declared. Holds the details of the next songs in the queue
+        self.stack_prev = []  # self list declared. Holds the details of the previous song played
+        self.int_songSkip = 0  # self variable declared. Changes to one when the skip forward button is activated
+        self.bool_songsQueued = False  # self variable declared. Changes when songs have been queued.
+        self.lst_nowPlaying = []  # self list declared. Holds the details of the song that is being played.
 
     def load_data(self):
         if len(self.lst_data) > 0:  # If data table already has items in it, the table is cleaned
@@ -134,24 +134,24 @@ class MainWindowClass(QtGui.QMainWindow, ui_mainWindow):
                 print("removing row", i)
                 self.lst_data.pop(i)
                 self.model.removeRow(index.row(self.lst_data[i]))
-        self.model = QtGui.QStandardItemModel(self)
-        self.tbl_songs.setModel(self.model)
+        self.model = QtGui.QStandardItemModel(self)  # new model declared from pyqt
+        self.tbl_songs.setModel(self.model)  # model set for tbl_songs
         for row in self.lst_data:
             items = [QtGui.QStandardItem(str(field)) for field in row]
             self.model.appendRow(items)
 
     def retrieve_row(self):
-        lst_rowdetails = []
-        tbl_rowdetails = self.tbl_songs.selectionModel().selectedRows()
-        for index in tbl_rowdetails:
-            row = index.row()
+        lst_rowdetails = []  # variable declared, holds the information retrieved from the row.
+        tbl_rowdetails = self.tbl_songs.selectionModel().selectedRows()  # row details retrieved from table model
+        for index in tbl_rowdetails:  # iteration to convert unusable data in tbl_rowdetails to usable in lst_rowdetails
+            row = index.row()  # row of table found
             print(row)
             lst_rowdetails = self.lst_data[row]  # Retrieves data from selected row
         print(lst_rowdetails[-1])
         if lst_rowdetails[-1] == 0:  # If the row bears the type of 0, it is a song and is played
-            self.bool_songsQueued = False
-            self.queue_next = []
-            self.stack_prev = []
+            self.bool_songsQueued = False  # songs are no longer queued so variable is changed
+            self.queue_next = []  # next queue is reset
+            self.stack_prev = []  # previous stack is reset
             self.play_song(lst_rowdetails)
         elif lst_rowdetails[-1] == 1:  # If the row bears the type of 1, it is a artist and the artist's albums are found
             self.artists_to_albums(lst_rowdetails)
@@ -247,7 +247,6 @@ class MainWindowClass(QtGui.QMainWindow, ui_mainWindow):
         self.refreshmostplayedplaylist()
         self.next_song()
 
-
     def play(self):
         mixer.music.unpause()  # Music in mixer is paused
 
@@ -280,21 +279,21 @@ class MainWindowClass(QtGui.QMainWindow, ui_mainWindow):
             i += 1
 
     def queueSongs(self):
-        self.queue_next = []
-        flag = False
-        i = 1
+        self.queue_next = []  # next queue cleared
+        flag = False  # iteration condition set
+        i = 1  # counter set
         while flag == False:
-            row_details = []
-            table_row_details = self.tbl_songs.selectionModel().selectedRows()
+            row_details = []  # row details is reset
+            table_row_details = self.tbl_songs.selectionModel().selectedRows()  # selected row is retrieved
             for index in table_row_details:
-                row = index.row() + i
+                row = index.row() + i  # row is incremented by counter
                 print(row)
-                row_details = self.lst_data[row]
+                row_details = self.lst_data[row]  # data from retrieved row taken.
                 print(row_details[2])
-                self.queue_next.append(row_details)
-                if row_details[0] == self.lst_data[-1][0]:
-                    flag = True
-                i = i + 1
+                self.queue_next.append(row_details)  # next song is queued
+                if row_details[0] == self.lst_data[-1][0]:  # if the most recently retrieved row is the last row in the table
+                    flag = True  # loop is broken
+                i = i + 1  # counter is incremented
         self.bool_songsQueued = True
 
     def next_song(self):
@@ -316,28 +315,28 @@ class MainWindowClass(QtGui.QMainWindow, ui_mainWindow):
             self.play_song(next_song)
 
     def search(self):
-        self.searchTerm = self.txt_search.text()
-        self.searchTerm = str(self.searchTerm + "%")
-        self.searchTable = self.drp_search.currentText()
-        if self.searchTable == "Songs":
-            cur.execute("SELECT * FROM Songs WHERE SongName LIKE ?", (self.searchTerm,))
-            self.lst_data = cur.fetchall()
-            self.load_data()
+        self.searchTerm = self.txt_search.text()  # retrieves user input to search with
+        self.searchTerm = str(self.searchTerm + "%")  # adds wildcard symbol to string
+        self.searchTable = self.drp_search.currentText()  # retrieves input from dropdown box
+        if self.searchTable == "Songs":  # if the dropdown menu was on songs
+            cur.execute("SELECT * FROM Songs WHERE SongName LIKE ?", (self.searchTerm,))  # selects all songs similar to the user's input
+            self.lst_data = cur.fetchall()  # fetches result from query
+            self.load_data()  # loads relevant data into table
             self.hide_song_columns()
-        elif self.searchTable == "Albums":
-            cur.execute("SELECT * FROM Albums WHERE AlbumName LIKE ?", (self.searchTerm,))
-            self.lst_data = cur.fetchall()
-            self.load_data()
+        elif self.searchTable == "Albums":  # if the dropdown menu was on albums
+            cur.execute("SELECT * FROM Albums WHERE AlbumName LIKE ?", (self.searchTerm,))  # selects all albums similar to the user's input
+            self.lst_data = cur.fetchall()  # fetches result from query
+            self.load_data()  # loads relevant data into table
             self.hide_album_columns()
-        elif self.searchTable == "Artists":
-            cur.execute("SELECT * FROM Artists WHERE ArtistName LIKE ?", (self.searchTerm,))
-            self.lst_data = cur.fetchall()
-            self.load_data()
+        elif self.searchTable == "Artists":  # if the dropdown menu was on artists
+            cur.execute("SELECT * FROM Artists WHERE ArtistName LIKE ?", (self.searchTerm,))  # selects all artists similar to the user's input
+            self.lst_data = cur.fetchall()  # fetches result from query
+            self.load_data()  # loads relevant data into table
             self.hide_artist_columns()
-        else:
-            cur.execute("SELECT * FROM Playlists WHERE Playlist LIKE ?", (self.searchTerm,))
-            self.lst_data = cur.fetchall()
-            self.load_data()
+        else:  # therefore, the dropdown menu was on playlists
+            cur.execute("SELECT * FROM Playlists WHERE Playlist LIKE ?", (self.searchTerm,))  # selects all playlists similar to the user's input
+            self.lst_data = cur.fetchall()  # fetches result from query
+            self.load_data()  # loads relevant data into table
 
     def skipForward(self):
         self.int_songSkip = 1
@@ -354,7 +353,6 @@ class MainWindowClass(QtGui.QMainWindow, ui_mainWindow):
         cur.execute("SELECT PlaylistSongsID FROM PlaylistSongs ORDER BY PlaylistSongsID DESC")
         latestPlaylistSongsID = cur.fetchone()[0] + 1
         for i in range(20):
-            cur.execute("SELECT PlaylistSongsID FROM PlaylistSongs ORDER BY PlaylistSongsID DESC")
             PlaylistSongsID = latestPlaylistSongsID + i
             print(PlaylistSongsID)
             songID = lst_playlistItems[i][0]
@@ -375,24 +373,24 @@ class MainWindowClass(QtGui.QMainWindow, ui_mainWindow):
 
 class SettingsWindowClass(QtGui.QMainWindow, ui_settingsWindow):
         def __init__(self, parent=LoginWindowClass):
-            QtGui.QMainWindow.__init__(self, parent)
-            self.setupUi(self)
-            self.selectedUser = ""
-            self.tbl_users.clicked.connect(self.select_user)
+            QtGui.QMainWindow.__init__(self, parent)  # initialisation of pyqt UI
+            self.setupUi(self)  # UI set up
+            self.selectedUser = ""  # self variable declared, selected user
+            self.tbl_users.clicked.connect(self.select_user)  # users table programmed
             self.btn_import.clicked.connect(self.importing)  # settings button pressed
-            self.btn_logout.clicked.connect(self.logout)
-            self.btn_delUser.clicked.connect(self.deleteUser)
-            self.btn_admin.clicked.connect(self.toggleAdmin)
-            self.btn_exit.clicked.connect(self.exit)
+            self.btn_logout.clicked.connect(self.logout)  # logout button programmd
+            self.btn_delUser.clicked.connect(self.deleteUser)  # delete user button programmed
+            self.btn_admin.clicked.connect(self.toggleAdmin)  # admin button programmed
+            self.btn_exit.clicked.connect(self.exit)  # exit button programmed
 
         def loadUserData(self):
-            self.int_userID = LoginWindow.int_userID
+            self.int_userID = LoginWindow.int_userID  # userID retrieved through encapsulation of LoginWindow object
             print(self.int_userID)
-            cur.execute("SELECT * FROM Users WHERE UserID != ?", (int(self.int_userID),))
-            self.lst_data = cur.fetchall()
+            cur.execute("SELECT * FROM Users WHERE UserID != ?", (int(self.int_userID),))  # query retrieves all information on users besides current user
+            self.lst_data = cur.fetchall()  # fetches results of query and assigns result to a variable
             print(self.lst_data)
             if len(self.lst_data) > 0:  # If data table already has items in it, the table is cleaned
-                for i in range(len(self.lst_data) - 1, -1):
+                for i in range(len(self.lst_data) - 1, -1):  # iteration to remove items from the list
                     print("removing row", i)
                     self.lst_data.pop(i)
                     self.model.removeRow(index.row(self.lst_data[i]))
@@ -419,65 +417,66 @@ class SettingsWindowClass(QtGui.QMainWindow, ui_settingsWindow):
             print("scanning")
             counter = 1  # counter used to calculate song_id
             rawdirectory = self.txt_dir.text()  # sets directory specified from user for their music library
-            #if os.path.exists(rawdirectory)) == False:
-
-            for dirName, subdirList, filelist in os.walk(rawdirectory):  # starts to walk through library
-                for fname in filelist:  # scans filename in directory
-                    if fname[-3:] == 'mp3':  # validation for .mp3
-                        song_location = str(dirName + '\\' + fname)  # forms file location from previous information
-                        print(song_location)
-                        song = EasyID3(song_location)  # retrieves tags from file
-                        length_info = MP3(song_location)
-                        length = length_info.info.length
-                        artist_name = (song["artist"][0])  # sets artist tag to variable
-                        album_name = (song["album"][0])  # sets album tag to variable
-                        cur.execute("SELECT COUNT(ArtistName) FROM Artists where ArtistName= ?", (str(artist_name),))
-                        # checks if artist name already exists
-                        artist_validate = cur.fetchone()[0]  # fetches result from sql query in previous line
-                        if artist_validate == 0:  # If artist name doesn't exist in artists table
-                            cur.execute("select COUNT(ArtistName) FROM Artists")
-                            # finds length of artists list, used to create artist_id
-                            artists_length = cur.fetchone()[0]  # fetches result from sql query in previous line
-                            artist_id = artists_length + 1  # creates artist_id for new artist
-                            cur.execute("INSERT INTO Artists VALUES(?,?,1)", (int(artist_id), str(artist_name)))
-                            # submits artist_id to new table
-                            con.commit()  # commits sql query in previous line
-                        else:  # if the artist is already in the table...
-                            cur.execute("select ArtistID from Artists where ArtistName= ?", (str(artist_name),))
-                            # retrieve artist_id of specific artist
-                            artist_id = cur.fetchone()[0]  # fetches result from sql query on previous line
-                        cur.execute("SELECT COUNT(AlbumName) FROM Albums WHERE AlbumName = ?", (str(album_name),))
-                        # checks if album name already exists
-                        album_validate = cur.fetchone()[0]  # fetches result from sql query in previous line
-                        if album_validate == 0:  # If album name doesn't exist in album table
-                            cur.execute("SELECT COUNT(AlbumName) FROM Albums")
-                            # finds the length of Albums table, used to calculate album_id
-                            albums_length = cur.fetchone()[0]  # fetches result from sql query on previous line
-                            album_id = albums_length + 1  # calculates album_id
-                            cur.execute("INSERT INTO Albums VALUES(?,?,?,2)", (int(album_id), str(album_name),
-                                                                               int(artist_id)))
-                            # adds collected data to table
-                            con.commit()  # commits sql statement on previous line
-                        else:  # if the album name already exists in Albums table
-                            cur.execute("select AlbumID from Albums where AlbumName=?", (str(album_name),))
-                            # retrieves album_id
-                            album_id = cur.fetchone()[0]  # fetches result from sql statement on previous line
-                        genre = (song["genre"][0])  # sets genre tag to variable
-                        song_id = int(counter)  # forms song_id from counting the mp3 files
-                        song_name = (song["title"][0])  # sets the song title tag to variable
-                        track_number = (song["tracknumber"][0])  # sets track number tag to variable
-                        slash_location = track_number.find("/")  # searches track number for a slash /
-                        if slash_location != -1:  # if a slash is found in the
-                            track_number = track_number[:slash_location]
-                            print(track_number)
-                        track_number = int(track_number)
-                        cur.execute("INSERT INTO Songs VALUES(?,?,?,?,?,?,?,0,0)", (int(song_id), int(track_number),
+            if not(os.path.exists(rawdirectory)):
+                self.lbl_import.setText("Directory doesn't exist")
+            else:
+                for dirName, subdirList, filelist in os.walk(rawdirectory):  # starts to walk through library
+                    for fname in filelist:  # scans filename in directory
+                        if fname[-3:] == 'mp3':  # validation for .mp3
+                            song_location = str(dirName + '\\' + fname)  # forms file location from previous information
+                            print(song_location)
+                            song = EasyID3(song_location)  # retrieves tags from file
+                            length_info = MP3(song_location)
+                            length = length_info.info.length
+                            artist_name = (song["artist"][0])  # sets artist tag to variable
+                            album_name = (song["album"][0])  # sets album tag to variable
+                            cur.execute("SELECT COUNT(ArtistName) FROM Artists where ArtistName= ?", (str(artist_name),))
+                            # checks if artist name already exists
+                            artist_validate = cur.fetchone()[0]  # fetches result from sql query in previous line
+                            if artist_validate == 0:  # If artist name doesn't exist in artists table
+                                cur.execute("select COUNT(ArtistName) FROM Artists")
+                                # finds length of artists list, used to create artist_id
+                                artists_length = cur.fetchone()[0]  # fetches result from sql query in previous line
+                                artist_id = artists_length + 1  # creates artist_id for new artist
+                                cur.execute("INSERT INTO Artists VALUES(?,?,1)", (int(artist_id), str(artist_name)))
+                                # submits artist_id to new table
+                                con.commit()  # commits sql query in previous line
+                            else:  # if the artist is already in the table...
+                                cur.execute("select ArtistID from Artists where ArtistName= ?", (str(artist_name),))
+                                # retrieve artist_id of specific artist
+                                artist_id = cur.fetchone()[0]  # fetches result from sql query on previous line
+                            cur.execute("SELECT COUNT(AlbumName) FROM Albums WHERE AlbumName = ?", (str(album_name),))
+                            # checks if album name already exists
+                            album_validate = cur.fetchone()[0]  # fetches result from sql query in previous line
+                            if album_validate == 0:  # If album name doesn't exist in album table
+                                cur.execute("SELECT COUNT(AlbumName) FROM Albums")
+                                # finds the length of Albums table, used to calculate album_id
+                                albums_length = cur.fetchone()[0]  # fetches result from sql query on previous line
+                                album_id = albums_length + 1  # calculates album_id
+                                cur.execute("INSERT INTO Albums VALUES(?,?,?,2)", (int(album_id), str(album_name),
+                                                                                int(artist_id)))
+                                # adds collected data to table
+                                con.commit()  # commits sql statement on previous line
+                            else:  # if the album name already exists in Albums table
+                                cur.execute("select AlbumID from Albums where AlbumName=?", (str(album_name),))
+                                # retrieves album_id
+                                album_id = cur.fetchone()[0]  # fetches result from sql statement on previous line
+                            genre = (song["genre"][0])  # sets genre tag to variable
+                            song_id = int(counter)  # forms song_id from counting the mp3 files
+                            song_name = (song["title"][0])  # sets the song title tag to variable
+                            track_number = (song["tracknumber"][0])  # sets track number tag to variable
+                            slash_location = track_number.find("/")  # searches track number for a slash /
+                            if slash_location != -1:  # if a slash is found in the
+                                track_number = track_number[:slash_location]
+                                print(track_number)
+                            track_number = int(track_number)
+                            cur.execute("INSERT INTO Songs VALUES(?,?,?,?,?,?,?,0,0)", (int(song_id), int(track_number),
                                                                                 str(song_name), str(genre),
                                                                                 str(song_location), int(album_id),
                                                                                        int(length)))
-                        # appends data to table
-                        counter += 1  # increments counter for next song
-            print("Complete")  # once all files have been added, 'Complete is printed'
+                            # appends data to table
+                            counter += 1  # increments counter for next song
+                    self.lbl_import.setText("Import Successful")  # once all files have been added, 'Complete is printed'
 
         def logout(self):
             LoginWindow.userID = ""
@@ -507,14 +506,14 @@ class SettingsWindowClass(QtGui.QMainWindow, ui_settingsWindow):
 
 class PlaylistWindowClass(QtGui.QMainWindow, ui_playlistWindow):
     def __init__(self, parent=None):
-        QtGui.QMainWindow.__init__(self, parent)
-        self.setupUi(self)
-        self.playlistData = []
-        self.btn_close.clicked.connect(self.close_window)
-        self.tbl_playlists.doubleClicked.connect(self.retrieve_playlists_row)
-        self.tbl_songs.doubleClicked.connect(self.add_to_playlist)
-        self.btn_plylstreset.clicked.connect(self.playlist_reset)
-        self.btn_newplylst.clicked.connect(self.new_playlist)
+        QtGui.QMainWindow.__init__(self, parent)  # Initialisation code for PyQt UI run
+        self.setupUi(self)  # User Interface set up
+        self.lst_playlistData = []  # List declared. Used to hold data from queries about the playlist tables.
+        self.btn_close.clicked.connect(self.close_window)  # close button programmed
+        self.tbl_playlists.doubleClicked.connect(self.retrieve_playlists_row)  # playlist table interaction programmed
+        self.tbl_songs.doubleClicked.connect(self.add_to_playlist)  # songs table interaction programmed
+        self.btn_plylstreset.clicked.connect(self.playlist_reset)  # changed playlist button programmed
+        self.btn_newplylst.clicked.connect(self.new_playlist)  # new playlist button programmed
 
     def retrieve_playlists_row(self):
         row_details = []
@@ -522,13 +521,13 @@ class PlaylistWindowClass(QtGui.QMainWindow, ui_playlistWindow):
         for index in table_row_details:
             row = index.row()
             print(row)
-            row_details = self.playlistData[row]  # Retrieves data from selected row
+            row_details = self.lst_playlistData[row]  # Retrieves data from selected row
             print(row_details)
         print(row_details[-1])
-        if row_details[-1] == 3:  # If the row bears the type of 0, it is a song and is played
-            self.playlists_to_songs(row_details)
-        else:
-            self.remove_from_playlist(row_details)
+        if row_details[-1] == 3:  # It the row bears the type of 3, it is a playlist
+            self.playlists_to_songs(row_details)  # the songs from the respective playlist are played
+        else:  # the row must be a song
+            self.remove_from_playlist(row_details)  # the song is removed from the playlist
 
     def add_to_playlist(self):
         row_details = []
@@ -565,8 +564,8 @@ class PlaylistWindowClass(QtGui.QMainWindow, ui_playlistWindow):
                               "INNER JOIN Songs ON PlaylistSongs.SongID = Songs.SongID " \
                               "WHERE PlaylistSongs.PlaylistID = ?"
         cur.execute(self.playlist_query, (int(self.playlist_id),))
-        self.playlistData = cur.fetchall()
-        self.load_playlist_data(self.playlistData)
+        self.lst_playlistData = cur.fetchall()
+        self.load_playlist_data(self.lst_playlistData)
 
     def load_song_data(self):
         cur.execute("SELECT * FROM Songs")
@@ -586,31 +585,31 @@ class PlaylistWindowClass(QtGui.QMainWindow, ui_playlistWindow):
             self.tbl_songs.hideColumn(columns_to_hide[i])
             i += 1
 
-    def load_playlist_data(self, playlistdata):
-        print(playlistdata)
-        if len(playlistdata) > 0:  # If data table already has items in it, the table is cleaned
-            for i in range(len(playlistdata) - 1, -1):
+    def load_playlist_data(self, lst_playlistdata):
+        print(lst_playlistdata)
+        if len(lst_playlistdata) > 0:  # If data table already has items in it, the table is cleaned
+            for i in range(len(lst_playlistdata) - 1, -1):
                 print("removing row", i)
-                playlistdata.pop(i)
+                lst_playlistdata.pop(i)
                 self.model.removeRow(index.row(self.lst_data[i]))
         self.model = QtGui.QStandardItemModel(self)
         self.tbl_playlists.setModel(self.model)
-        for row in playlistdata:
+        for row in lst_playlistdata:
             items = [QtGui.QStandardItem(str(field)) for field in row]
             self.model.appendRow(items)
 
     def refresh_playlist(self):
         cur.execute(self.playlist_query, (int(self.playlist_id),))
-        playlistData = cur.fetchall()
-        self.load_playlist_data(playlistData)
+        lst_playlistData = cur.fetchall()
+        self.load_playlist_data(lst_playlistData)
 
     def close_window(self):
         PlaylistWindow.hide()
 
     def playlist_reset(self):
-        cur.execute("SELECT * FROM Playlists WHERE UserID=? OR UserID=0", (int(LoginWindow.userID),))
-        self.playlistData = cur.fetchall()
-        self.load_playlist_data(self.playlistData)
+        cur.execute("SELECT * FROM Playlists WHERE UserID=?", (int(LoginWindow.userID),))
+        self.lst_playlistData = cur.fetchall()
+        self.load_playlist_data(self.lst_playlistData)
 
     def new_playlist(self):
         PlaylistNameWindow.show()
