@@ -118,7 +118,6 @@ class MainWindowClass(QtGui.QMainWindow, main_window):
         self.tbl_songs.doubleClicked.connect(self.artists_to_albums())
 
     def artists_to_albums(self):
-        #self.tbl_songs.doubleClicked.disconnect()
         self.retrieve_row()
         artist_id = row_details[0]
         cur.execute("SELECT * FROM Albums WHERE ArtistID=?", (str(artist_id)), )

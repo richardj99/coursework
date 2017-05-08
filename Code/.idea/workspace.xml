@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5ba9046-f50d-48e1-945a-3e8d98a3e5f5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Music Library.db" afterPath="$PROJECT_DIR$/Music Library.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Documentation/Richard Jones A Level Computer Science Project April 2017.docx" afterPath="$PROJECT_DIR$/../Documentation/Richard Jones A Level Computer Science Project April 2017.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Changelog.txt" afterPath="$PROJECT_DIR$/../Changelog.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project Bronx.py" afterPath="$PROJECT_DIR$/Project Bronx.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Coursework Snapshots/07-Feb-2017/Login Code.py" afterPath="$PROJECT_DIR$/../Coursework Snapshots/07-Feb-2017/Login Code.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,45 +54,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Project Bronx.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Project Bronx.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Project Bronx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-76">
-              <caret line="62" column="6" lean-forward="false" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
+            <state relative-caret-position="1659">
+              <caret line="105" column="67" lean-forward="true" selection-start-line="105" selection-start-column="67" selection-end-line="105" selection-end-column="67" />
               <folding>
-                <element signature="e#6423#8498#0" expanded="false" />
-                <element signature="e#9160#10463#0" expanded="false" />
-                <element signature="e#10494#10945#0" expanded="false" />
-                <element signature="e#10977#11418#0" expanded="false" />
-                <element signature="e#11451#11896#0" expanded="false" />
-                <element signature="e#11931#12214#0" expanded="false" />
-                <element signature="e#12266#12801#0" expanded="false" />
-                <element signature="e#12851#13359#0" expanded="false" />
-                <element signature="e#13412#14000#0" expanded="false" />
-                <element signature="e#14044#15012#0" expanded="false" />
-                <element signature="e#15042#15091#0" expanded="false" />
-                <element signature="e#15122#15170#0" expanded="false" />
-                <element signature="e#15204#15391#0" expanded="false" />
-                <element signature="e#15434#15584#0" expanded="false" />
-                <element signature="e#15628#15763#0" expanded="false" />
-                <element signature="e#15808#15940#0" expanded="false" />
-                <element signature="e#15976#16888#0" expanded="false" />
-                <element signature="e#16923#17637#0" expanded="false" />
-                <element signature="e#17669#19456#0" expanded="false" />
-                <element signature="e#19493#19514#0" expanded="false" />
-                <element signature="e#19552#19574#0" expanded="false" />
-                <element signature="e#19625#20305#0" expanded="false" />
-                <element signature="e#20346#20673#0" expanded="false" />
-                <element signature="e#20703#20714#0" expanded="false" />
-                <element signature="e#20790#29704#0" expanded="false" />
-                <element signature="e#20847#21556#0" expanded="false" />
-                <element signature="e#21602#22655#0" expanded="false" />
-                <element signature="e#22700#23090#0" expanded="false" />
-                <element signature="e#23133#28829#0" expanded="false" />
-                <element signature="e#28869#28987#0" expanded="false" />
-                <element signature="e#29025#29046#0" expanded="false" />
-                <element signature="e#29090#29261#0" expanded="false" />
-                <element signature="e#29306#29704#0" expanded="false" />
                 <marker date="1493929591904" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
                 <marker date="1493929591904" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
                 <marker date="1493929591904" expanded="true" signature="3087:3128" ph="select UserI... Users" />
@@ -148,52 +113,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Login Code.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Login Code.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Coursework Snapshots/07-Feb-2017/Login Code.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-76">
-              <caret line="93" column="50" lean-forward="true" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
+            <state relative-caret-position="378">
+              <caret line="119" column="32" lean-forward="false" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
               <folding>
-                <element signature="e#6547#11957#0" expanded="false" />
-                <marker date="1493366207020" expanded="true" signature="1392:1444" ph="SELECT COUNT... Users" />
-                <marker date="1493366207020" expanded="true" signature="1527:1576" ph="SELECT UserP... Users" />
-                <marker date="1493366207020" expanded="true" signature="2538:2571" ph="select COUNT... Users" />
-                <marker date="1493366207020" expanded="true" signature="2643:2693" ph="select COUNT... Users" />
-                <marker date="1493366207020" expanded="true" signature="3015:3048" ph="INSERT INTO Users... " />
-                <marker date="1493366207020" expanded="true" signature="3977:3996" ph="SELECT * FRO... Songs" />
-                <marker date="1493366207020" expanded="true" signature="4178:4198" ph="SELECT * FRO... Albums" />
-                <marker date="1493366207020" expanded="true" signature="4387:4408" ph="SELECT * FRO... Artists" />
-                <marker date="1493366207020" expanded="true" signature="4733:4770" ph="SELECT * FRO... Albums" />
-                <marker date="1493366207020" expanded="true" signature="5037:5072" ph="SELECT * FRO... Songs" />
-                <marker date="1493366207020" expanded="true" signature="5519:5558" ph="UPDATE Songs... " />
-                <marker date="1493366207020" expanded="true" signature="6916:6934" ph="DELETE FROM " />
-                <marker date="1493366207020" expanded="true" signature="6962:6981" ph="DELETE FROM " />
-                <marker date="1493366207020" expanded="true" signature="7009:7026" ph="DELETE FROM " />
-                <marker date="1493366207020" expanded="true" signature="8070:8127" ph="SELECT COUNT... Artists" />
-                <marker date="1493366207020" expanded="true" signature="8463:8500" ph="select COUNT... Artists" />
-                <marker date="1493366207020" expanded="true" signature="8837:8868" ph="INSERT INTO Artists... " />
-                <marker date="1493366207020" expanded="true" signature="9162:9210" ph="select Artis... Artists" />
-                <marker date="1493366207020" expanded="true" signature="9447:9502" ph="SELECT COUNT... Albums" />
-                <marker date="1493366207020" expanded="true" signature="9831:9866" ph="SELECT COUNT... Albums" />
-                <marker date="1493366207020" expanded="true" signature="10193:10225" ph="INSERT INTO Albums... " />
-                <marker date="1493366207020" expanded="true" signature="10620:10664" ph="select Album... Albums" />
-                <marker date="1493366207020" expanded="true" signature="11252:11295" ph="INSERT INTO Songs... " />
+                <marker date="1494165153053" expanded="true" signature="1392:1444" ph="SELECT COUNT... Users" />
+                <marker date="1494165153053" expanded="true" signature="1527:1576" ph="SELECT UserP... Users" />
+                <marker date="1494165153053" expanded="true" signature="2538:2571" ph="select COUNT... Users" />
+                <marker date="1494165153053" expanded="true" signature="2643:2693" ph="select COUNT... Users" />
+                <marker date="1494165153053" expanded="true" signature="3015:3048" ph="INSERT INTO Users... " />
+                <marker date="1494165153053" expanded="true" signature="3977:3996" ph="SELECT * FRO... Songs" />
+                <marker date="1494165153053" expanded="true" signature="4178:4198" ph="SELECT * FRO... Albums" />
+                <marker date="1494165153053" expanded="true" signature="4387:4408" ph="SELECT * FRO... Artists" />
+                <marker date="1494165153053" expanded="true" signature="4682:4719" ph="SELECT * FRO... Albums" />
+                <marker date="1494165153053" expanded="true" signature="4986:5021" ph="SELECT * FRO... Songs" />
+                <marker date="1494165153053" expanded="true" signature="5468:5507" ph="UPDATE Songs... " />
+                <marker date="1494165153053" expanded="true" signature="6865:6883" ph="DELETE FROM " />
+                <marker date="1494165153053" expanded="true" signature="6911:6930" ph="DELETE FROM " />
+                <marker date="1494165153053" expanded="true" signature="6958:6975" ph="DELETE FROM " />
+                <marker date="1494165153053" expanded="true" signature="8019:8076" ph="SELECT COUNT... Artists" />
+                <marker date="1494165153053" expanded="true" signature="8412:8449" ph="select COUNT... Artists" />
+                <marker date="1494165153053" expanded="true" signature="8786:8817" ph="INSERT INTO Artists... " />
+                <marker date="1494165153053" expanded="true" signature="9111:9159" ph="select Artis... Artists" />
+                <marker date="1494165153053" expanded="true" signature="9396:9451" ph="SELECT COUNT... Albums" />
+                <marker date="1494165153053" expanded="true" signature="9780:9815" ph="SELECT COUNT... Albums" />
+                <marker date="1494165153053" expanded="true" signature="10142:10174" ph="INSERT INTO Albums... " />
+                <marker date="1494165153053" expanded="true" signature="10569:10613" ph="select Album... Albums" />
+                <marker date="1494165153053" expanded="true" signature="11201:11244" ph="INSERT INTO Songs... " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.PlaylistSongs" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/60a01bd1/8a570770-b80f-411c-aad3-bbac2f187f41/main.PlaylistSongs">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -207,6 +156,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Project Bronx.py" />
+        <option value="$PROJECT_DIR$/../Coursework Snapshots/07-Feb-2017/Login Code.py" />
       </list>
     </option>
   </component>
@@ -224,7 +174,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -237,24 +187,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -515,15 +448,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14983888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17400645" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292402" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23361976" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34777778" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -556,42 +490,244 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Project Bronx.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1701">
+          <caret line="81" column="63" lean-forward="false" selection-start-line="81" selection-start-column="63" selection-end-line="81" selection-end-column="63" />
+          <folding>
+            <marker date="1493929591904" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
+            <marker date="1493929591904" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
+            <marker date="1493929591904" expanded="true" signature="3087:3128" ph="select UserI... Users" />
+            <marker date="1493929591904" expanded="true" signature="3295:3343" ph="SELECT Admin... Users" />
+            <marker date="1493929591904" expanded="true" signature="5194:5239" ph="SELECT UserI... Users" />
+            <marker date="1493929591904" expanded="true" signature="5477:5527" ph="select COUNT... Users" />
+            <marker date="1493929591904" expanded="true" signature="6010:6043" ph="INSERT INTO Users... " />
+            <marker date="1493929591904" expanded="true" signature="10591:10628" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="11074:11117" ph="SELECT * FRO... Albums" />
+            <marker date="1493929591904" expanded="true" signature="11548:11593" ph="SELECT * FRO... Artists" />
+            <marker date="1493929591904" expanded="true" signature="12066:12116" ph="SELECT * FRO... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="12457:12517" ph="SELECT * FRO... Albums" />
+            <marker date="1493929591904" expanded="true" signature="13036:13092" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="13462:13785" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493929591904" expanded="true" signature="14446:14485" ph="UPDATE Songs... " />
+            <marker date="1493929591904" expanded="true" signature="18032:18073" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="18423:18466" ph="SELECT * FRO... Albums" />
+            <marker date="1493929591904" expanded="true" signature="18820:18865" ph="SELECT * FRO... Artists" />
+            <marker date="1493929591904" expanded="true" signature="19201:19246" ph="SELECT * FRO... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="19638:19684" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="19729:19784" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="19884:19955" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493929591904" expanded="true" signature="20201:20240" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493929591904" expanded="true" signature="20437:20475" ph="SELECT * FRO... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="21767:21804" ph="SELECT * FRO... Users" />
+            <marker date="1493929591904" expanded="true" signature="23146:23164" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="23192:23211" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="23239:23256" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="24470:24527" ph="SELECT COUNT... Artists" />
+            <marker date="1493929591904" expanded="true" signature="24879:24916" ph="select COUNT... Artists" />
+            <marker date="1493929591904" expanded="true" signature="25269:25302" ph="INSERT INTO Artists... " />
+            <marker date="1493929591904" expanded="true" signature="25612:25660" ph="select Artis... Artists" />
+            <marker date="1493929591904" expanded="true" signature="25909:25964" ph="SELECT COUNT... Albums" />
+            <marker date="1493929591904" expanded="true" signature="26309:26344" ph="SELECT COUNT... Albums" />
+            <marker date="1493929591904" expanded="true" signature="26687:26721" ph="INSERT INTO Albums... " />
+            <marker date="1493929591904" expanded="true" signature="27135:27179" ph="select Album... Albums" />
+            <marker date="1493929591904" expanded="true" signature="28175:28218" ph="INSERT INTO Songs... " />
+            <marker date="1493929591904" expanded="true" signature="29103:29137" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="29365:29416" ph="UPDATE Users... " />
+            <marker date="1493929591904" expanded="true" signature="29525:29576" ph="UPDATE Users... " />
+            <marker date="1493929591904" expanded="true" signature="31665:31736" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493929591904" expanded="true" signature="31941:31981" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493929591904" expanded="true" signature="32306:32367" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="32687:32928" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493929591904" expanded="true" signature="33151:33170" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="34853:34891" ph="SELECT * FRO... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="35600:35657" ph="SELECT Playl... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="35735:35773" ph="INSERT INTO Playlists... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Coursework Snapshots/07-Feb-2017/Login Code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2499">
+          <caret line="119" column="32" lean-forward="false" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
+          <folding>
+            <marker date="1494165153053" expanded="true" signature="1392:1444" ph="SELECT COUNT... Users" />
+            <marker date="1494165153053" expanded="true" signature="1527:1576" ph="SELECT UserP... Users" />
+            <marker date="1494165153053" expanded="true" signature="2538:2571" ph="select COUNT... Users" />
+            <marker date="1494165153053" expanded="true" signature="2643:2693" ph="select COUNT... Users" />
+            <marker date="1494165153053" expanded="true" signature="3015:3048" ph="INSERT INTO Users... " />
+            <marker date="1494165153053" expanded="true" signature="3977:3996" ph="SELECT * FRO... Songs" />
+            <marker date="1494165153053" expanded="true" signature="4178:4198" ph="SELECT * FRO... Albums" />
+            <marker date="1494165153053" expanded="true" signature="4387:4408" ph="SELECT * FRO... Artists" />
+            <marker date="1494165153053" expanded="true" signature="4682:4719" ph="SELECT * FRO... Albums" />
+            <marker date="1494165153053" expanded="true" signature="4986:5021" ph="SELECT * FRO... Songs" />
+            <marker date="1494165153053" expanded="true" signature="5468:5507" ph="UPDATE Songs... " />
+            <marker date="1494165153053" expanded="true" signature="6865:6883" ph="DELETE FROM " />
+            <marker date="1494165153053" expanded="true" signature="6911:6930" ph="DELETE FROM " />
+            <marker date="1494165153053" expanded="true" signature="6958:6975" ph="DELETE FROM " />
+            <marker date="1494165153053" expanded="true" signature="8019:8076" ph="SELECT COUNT... Artists" />
+            <marker date="1494165153053" expanded="true" signature="8412:8449" ph="select COUNT... Artists" />
+            <marker date="1494165153053" expanded="true" signature="8786:8817" ph="INSERT INTO Artists... " />
+            <marker date="1494165153053" expanded="true" signature="9111:9159" ph="select Artis... Artists" />
+            <marker date="1494165153053" expanded="true" signature="9396:9451" ph="SELECT COUNT... Albums" />
+            <marker date="1494165153053" expanded="true" signature="9780:9815" ph="SELECT COUNT... Albums" />
+            <marker date="1494165153053" expanded="true" signature="10142:10174" ph="INSERT INTO Albums... " />
+            <marker date="1494165153053" expanded="true" signature="10569:10613" ph="select Album... Albums" />
+            <marker date="1494165153053" expanded="true" signature="11201:11244" ph="INSERT INTO Songs... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project Bronx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1701">
+          <caret line="81" column="63" lean-forward="true" selection-start-line="81" selection-start-column="63" selection-end-line="81" selection-end-column="63" />
+          <folding>
+            <marker date="1493929591904" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
+            <marker date="1493929591904" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
+            <marker date="1493929591904" expanded="true" signature="3087:3128" ph="select UserI... Users" />
+            <marker date="1493929591904" expanded="true" signature="3295:3343" ph="SELECT Admin... Users" />
+            <marker date="1493929591904" expanded="true" signature="5194:5239" ph="SELECT UserI... Users" />
+            <marker date="1493929591904" expanded="true" signature="5477:5527" ph="select COUNT... Users" />
+            <marker date="1493929591904" expanded="true" signature="6010:6043" ph="INSERT INTO Users... " />
+            <marker date="1493929591904" expanded="true" signature="10591:10628" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="11074:11117" ph="SELECT * FRO... Albums" />
+            <marker date="1493929591904" expanded="true" signature="11548:11593" ph="SELECT * FRO... Artists" />
+            <marker date="1493929591904" expanded="true" signature="12066:12116" ph="SELECT * FRO... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="12457:12517" ph="SELECT * FRO... Albums" />
+            <marker date="1493929591904" expanded="true" signature="13036:13092" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="13462:13785" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493929591904" expanded="true" signature="14446:14485" ph="UPDATE Songs... " />
+            <marker date="1493929591904" expanded="true" signature="18032:18073" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="18423:18466" ph="SELECT * FRO... Albums" />
+            <marker date="1493929591904" expanded="true" signature="18820:18865" ph="SELECT * FRO... Artists" />
+            <marker date="1493929591904" expanded="true" signature="19201:19246" ph="SELECT * FRO... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="19638:19684" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="19729:19784" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="19884:19955" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493929591904" expanded="true" signature="20201:20240" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493929591904" expanded="true" signature="20437:20475" ph="SELECT * FRO... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="21767:21804" ph="SELECT * FRO... Users" />
+            <marker date="1493929591904" expanded="true" signature="23146:23164" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="23192:23211" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="23239:23256" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="24470:24527" ph="SELECT COUNT... Artists" />
+            <marker date="1493929591904" expanded="true" signature="24879:24916" ph="select COUNT... Artists" />
+            <marker date="1493929591904" expanded="true" signature="25269:25302" ph="INSERT INTO Artists... " />
+            <marker date="1493929591904" expanded="true" signature="25612:25660" ph="select Artis... Artists" />
+            <marker date="1493929591904" expanded="true" signature="25909:25964" ph="SELECT COUNT... Albums" />
+            <marker date="1493929591904" expanded="true" signature="26309:26344" ph="SELECT COUNT... Albums" />
+            <marker date="1493929591904" expanded="true" signature="26687:26721" ph="INSERT INTO Albums... " />
+            <marker date="1493929591904" expanded="true" signature="27135:27179" ph="select Album... Albums" />
+            <marker date="1493929591904" expanded="true" signature="28175:28218" ph="INSERT INTO Songs... " />
+            <marker date="1493929591904" expanded="true" signature="29103:29137" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="29365:29416" ph="UPDATE Users... " />
+            <marker date="1493929591904" expanded="true" signature="29525:29576" ph="UPDATE Users... " />
+            <marker date="1493929591904" expanded="true" signature="31665:31736" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493929591904" expanded="true" signature="31941:31981" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493929591904" expanded="true" signature="32306:32367" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="32687:32928" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493929591904" expanded="true" signature="33151:33170" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="34853:34891" ph="SELECT * FRO... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="35600:35657" ph="SELECT Playl... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="35735:35773" ph="INSERT INTO Playlists... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Coursework Snapshots/07-Feb-2017/Login Code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2499">
+          <caret line="119" column="32" lean-forward="false" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
+          <folding>
+            <marker date="1494165153053" expanded="true" signature="1392:1444" ph="SELECT COUNT... Users" />
+            <marker date="1494165153053" expanded="true" signature="1527:1576" ph="SELECT UserP... Users" />
+            <marker date="1494165153053" expanded="true" signature="2538:2571" ph="select COUNT... Users" />
+            <marker date="1494165153053" expanded="true" signature="2643:2693" ph="select COUNT... Users" />
+            <marker date="1494165153053" expanded="true" signature="3015:3048" ph="INSERT INTO Users... " />
+            <marker date="1494165153053" expanded="true" signature="3977:3996" ph="SELECT * FRO... Songs" />
+            <marker date="1494165153053" expanded="true" signature="4178:4198" ph="SELECT * FRO... Albums" />
+            <marker date="1494165153053" expanded="true" signature="4387:4408" ph="SELECT * FRO... Artists" />
+            <marker date="1494165153053" expanded="true" signature="4682:4719" ph="SELECT * FRO... Albums" />
+            <marker date="1494165153053" expanded="true" signature="4986:5021" ph="SELECT * FRO... Songs" />
+            <marker date="1494165153053" expanded="true" signature="5468:5507" ph="UPDATE Songs... " />
+            <marker date="1494165153053" expanded="true" signature="6865:6883" ph="DELETE FROM " />
+            <marker date="1494165153053" expanded="true" signature="6911:6930" ph="DELETE FROM " />
+            <marker date="1494165153053" expanded="true" signature="6958:6975" ph="DELETE FROM " />
+            <marker date="1494165153053" expanded="true" signature="8019:8076" ph="SELECT COUNT... Artists" />
+            <marker date="1494165153053" expanded="true" signature="8412:8449" ph="select COUNT... Artists" />
+            <marker date="1494165153053" expanded="true" signature="8786:8817" ph="INSERT INTO Artists... " />
+            <marker date="1494165153053" expanded="true" signature="9111:9159" ph="select Artis... Artists" />
+            <marker date="1494165153053" expanded="true" signature="9396:9451" ph="SELECT COUNT... Albums" />
+            <marker date="1494165153053" expanded="true" signature="9780:9815" ph="SELECT COUNT... Albums" />
+            <marker date="1494165153053" expanded="true" signature="10142:10174" ph="INSERT INTO Albums... " />
+            <marker date="1494165153053" expanded="true" signature="10569:10613" ph="select Album... Albums" />
+            <marker date="1494165153053" expanded="true" signature="11201:11244" ph="INSERT INTO Songs... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project Bronx.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6423#8498#0" expanded="false" />
-            <element signature="e#9160#10463#0" expanded="false" />
-            <element signature="e#10494#10945#0" expanded="false" />
-            <element signature="e#10977#11418#0" expanded="false" />
-            <element signature="e#11451#11896#0" expanded="false" />
-            <element signature="e#11931#12214#0" expanded="false" />
-            <element signature="e#12266#12801#0" expanded="false" />
-            <element signature="e#12851#13359#0" expanded="false" />
-            <element signature="e#13412#14000#0" expanded="false" />
-            <element signature="e#14044#15012#0" expanded="false" />
-            <element signature="e#15042#15091#0" expanded="false" />
-            <element signature="e#15122#15170#0" expanded="false" />
-            <element signature="e#15204#15391#0" expanded="false" />
-            <element signature="e#15434#15584#0" expanded="false" />
-            <element signature="e#15628#15763#0" expanded="false" />
-            <element signature="e#15808#15940#0" expanded="false" />
-            <element signature="e#15976#16888#0" expanded="false" />
-            <element signature="e#16923#17637#0" expanded="false" />
-            <element signature="e#17669#19456#0" expanded="false" />
-            <element signature="e#19493#19514#0" expanded="false" />
-            <element signature="e#19552#19574#0" expanded="false" />
-            <element signature="e#19625#20305#0" expanded="false" />
-            <element signature="e#20346#20673#0" expanded="false" />
-            <element signature="e#20703#20714#0" expanded="false" />
-            <element signature="e#20790#29704#0" expanded="false" />
-            <element signature="e#20847#21556#0" expanded="false" />
-            <element signature="e#21602#22655#0" expanded="false" />
-            <element signature="e#22700#23090#0" expanded="false" />
-            <element signature="e#23133#28829#0" expanded="false" />
-            <element signature="e#28869#28987#0" expanded="false" />
-            <element signature="e#29025#29046#0" expanded="false" />
-            <element signature="e#29090#29261#0" expanded="false" />
-            <element signature="e#29306#29704#0" expanded="false" />
+            <marker date="1493929591904" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
+            <marker date="1493929591904" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
+            <marker date="1493929591904" expanded="true" signature="3087:3128" ph="select UserI... Users" />
+            <marker date="1493929591904" expanded="true" signature="3295:3343" ph="SELECT Admin... Users" />
+            <marker date="1493929591904" expanded="true" signature="5194:5239" ph="SELECT UserI... Users" />
+            <marker date="1493929591904" expanded="true" signature="5477:5527" ph="select COUNT... Users" />
+            <marker date="1493929591904" expanded="true" signature="6010:6043" ph="INSERT INTO Users... " />
+            <marker date="1493929591904" expanded="true" signature="10591:10628" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="11074:11117" ph="SELECT * FRO... Albums" />
+            <marker date="1493929591904" expanded="true" signature="11548:11593" ph="SELECT * FRO... Artists" />
+            <marker date="1493929591904" expanded="true" signature="12066:12116" ph="SELECT * FRO... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="12457:12517" ph="SELECT * FRO... Albums" />
+            <marker date="1493929591904" expanded="true" signature="13036:13092" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="13462:13785" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493929591904" expanded="true" signature="14446:14485" ph="UPDATE Songs... " />
+            <marker date="1493929591904" expanded="true" signature="18032:18073" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="18423:18466" ph="SELECT * FRO... Albums" />
+            <marker date="1493929591904" expanded="true" signature="18820:18865" ph="SELECT * FRO... Artists" />
+            <marker date="1493929591904" expanded="true" signature="19201:19246" ph="SELECT * FRO... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="19638:19684" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="19729:19784" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="19884:19955" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493929591904" expanded="true" signature="20201:20240" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493929591904" expanded="true" signature="20437:20475" ph="SELECT * FRO... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="21767:21804" ph="SELECT * FRO... Users" />
+            <marker date="1493929591904" expanded="true" signature="23146:23164" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="23192:23211" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="23239:23256" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="24470:24527" ph="SELECT COUNT... Artists" />
+            <marker date="1493929591904" expanded="true" signature="24879:24916" ph="select COUNT... Artists" />
+            <marker date="1493929591904" expanded="true" signature="25269:25302" ph="INSERT INTO Artists... " />
+            <marker date="1493929591904" expanded="true" signature="25612:25660" ph="select Artis... Artists" />
+            <marker date="1493929591904" expanded="true" signature="25909:25964" ph="SELECT COUNT... Albums" />
+            <marker date="1493929591904" expanded="true" signature="26309:26344" ph="SELECT COUNT... Albums" />
+            <marker date="1493929591904" expanded="true" signature="26687:26721" ph="INSERT INTO Albums... " />
+            <marker date="1493929591904" expanded="true" signature="27135:27179" ph="select Album... Albums" />
+            <marker date="1493929591904" expanded="true" signature="28175:28218" ph="INSERT INTO Songs... " />
+            <marker date="1493929591904" expanded="true" signature="29103:29137" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="29365:29416" ph="UPDATE Users... " />
+            <marker date="1493929591904" expanded="true" signature="29525:29576" ph="UPDATE Users... " />
+            <marker date="1493929591904" expanded="true" signature="31665:31736" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493929591904" expanded="true" signature="31941:31981" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493929591904" expanded="true" signature="32306:32367" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="32687:32928" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493929591904" expanded="true" signature="33151:33170" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="34853:34891" ph="SELECT * FRO... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="35600:35657" ph="SELECT Playl... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="35735:35773" ph="INSERT INTO Playlists... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project Bronx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1113">
+          <caret line="62" column="6" lean-forward="false" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
+          <folding>
             <marker date="1493929591904" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
             <marker date="1493929591904" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
             <marker date="1493929591904" expanded="true" signature="3087:3128" ph="select UserI... Users" />
@@ -645,15 +781,46 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/60a01bd1/8a570770-b80f-411c-aad3-bbac2f187f41/main.PlaylistSongs">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Coursework Snapshots/07-Feb-2017/Login Code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="93" column="50" lean-forward="false" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
+          <folding>
+            <marker date="1494165153053" expanded="true" signature="1392:1444" ph="SELECT COUNT... Users" />
+            <marker date="1494165153053" expanded="true" signature="1527:1576" ph="SELECT UserP... Users" />
+            <marker date="1494165153053" expanded="true" signature="2538:2571" ph="select COUNT... Users" />
+            <marker date="1494165153053" expanded="true" signature="2643:2693" ph="select COUNT... Users" />
+            <marker date="1494165153053" expanded="true" signature="3015:3048" ph="INSERT INTO Users... " />
+            <marker date="1494165153053" expanded="true" signature="3977:3996" ph="SELECT * FRO... Songs" />
+            <marker date="1494165153053" expanded="true" signature="4178:4198" ph="SELECT * FRO... Albums" />
+            <marker date="1494165153053" expanded="true" signature="4387:4408" ph="SELECT * FRO... Artists" />
+            <marker date="1494165153053" expanded="true" signature="4682:4719" ph="SELECT * FRO... Albums" />
+            <marker date="1494165153053" expanded="true" signature="4986:5021" ph="SELECT * FRO... Songs" />
+            <marker date="1494165153053" expanded="true" signature="5468:5507" ph="UPDATE Songs... " />
+            <marker date="1494165153053" expanded="true" signature="6865:6883" ph="DELETE FROM " />
+            <marker date="1494165153053" expanded="true" signature="6911:6930" ph="DELETE FROM " />
+            <marker date="1494165153053" expanded="true" signature="6958:6975" ph="DELETE FROM " />
+            <marker date="1494165153053" expanded="true" signature="8019:8076" ph="SELECT COUNT... Artists" />
+            <marker date="1494165153053" expanded="true" signature="8412:8449" ph="select COUNT... Artists" />
+            <marker date="1494165153053" expanded="true" signature="8786:8817" ph="INSERT INTO Artists... " />
+            <marker date="1494165153053" expanded="true" signature="9111:9159" ph="select Artis... Artists" />
+            <marker date="1494165153053" expanded="true" signature="9396:9451" ph="SELECT COUNT... Albums" />
+            <marker date="1494165153053" expanded="true" signature="9780:9815" ph="SELECT COUNT... Albums" />
+            <marker date="1494165153053" expanded="true" signature="10142:10174" ph="INSERT INTO Albums... " />
+            <marker date="1494165153053" expanded="true" signature="10569:10613" ph="select Album... Albums" />
+            <marker date="1494165153053" expanded="true" signature="11201:11244" ph="INSERT INTO Songs... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -662,39 +829,107 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6423#8498#0" expanded="false" />
-            <element signature="e#9160#10463#0" expanded="false" />
-            <element signature="e#10494#10945#0" expanded="false" />
-            <element signature="e#10977#11418#0" expanded="false" />
-            <element signature="e#11451#11896#0" expanded="false" />
-            <element signature="e#11931#12214#0" expanded="false" />
-            <element signature="e#12266#12801#0" expanded="false" />
-            <element signature="e#12851#13359#0" expanded="false" />
-            <element signature="e#13412#14000#0" expanded="false" />
-            <element signature="e#14044#15012#0" expanded="false" />
-            <element signature="e#15042#15091#0" expanded="false" />
-            <element signature="e#15122#15170#0" expanded="false" />
-            <element signature="e#15204#15391#0" expanded="false" />
-            <element signature="e#15434#15584#0" expanded="false" />
-            <element signature="e#15628#15763#0" expanded="false" />
-            <element signature="e#15808#15940#0" expanded="false" />
-            <element signature="e#15976#16888#0" expanded="false" />
-            <element signature="e#16923#17637#0" expanded="false" />
-            <element signature="e#17669#19456#0" expanded="false" />
-            <element signature="e#19493#19514#0" expanded="false" />
-            <element signature="e#19552#19574#0" expanded="false" />
-            <element signature="e#19625#20305#0" expanded="false" />
-            <element signature="e#20346#20673#0" expanded="false" />
-            <element signature="e#20703#20714#0" expanded="false" />
-            <element signature="e#20790#29704#0" expanded="false" />
-            <element signature="e#20847#21556#0" expanded="false" />
-            <element signature="e#21602#22655#0" expanded="false" />
-            <element signature="e#22700#23090#0" expanded="false" />
-            <element signature="e#23133#28829#0" expanded="false" />
-            <element signature="e#28869#28987#0" expanded="false" />
-            <element signature="e#29025#29046#0" expanded="false" />
-            <element signature="e#29090#29261#0" expanded="false" />
-            <element signature="e#29306#29704#0" expanded="false" />
+            <marker date="1493929591904" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
+            <marker date="1493929591904" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
+            <marker date="1493929591904" expanded="true" signature="3087:3128" ph="select UserI... Users" />
+            <marker date="1493929591904" expanded="true" signature="3295:3343" ph="SELECT Admin... Users" />
+            <marker date="1493929591904" expanded="true" signature="5194:5239" ph="SELECT UserI... Users" />
+            <marker date="1493929591904" expanded="true" signature="5477:5527" ph="select COUNT... Users" />
+            <marker date="1493929591904" expanded="true" signature="6010:6043" ph="INSERT INTO Users... " />
+            <marker date="1493929591904" expanded="true" signature="10591:10628" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="11074:11117" ph="SELECT * FRO... Albums" />
+            <marker date="1493929591904" expanded="true" signature="11548:11593" ph="SELECT * FRO... Artists" />
+            <marker date="1493929591904" expanded="true" signature="12066:12116" ph="SELECT * FRO... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="12457:12517" ph="SELECT * FRO... Albums" />
+            <marker date="1493929591904" expanded="true" signature="13036:13092" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="13462:13785" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493929591904" expanded="true" signature="14446:14485" ph="UPDATE Songs... " />
+            <marker date="1493929591904" expanded="true" signature="18032:18073" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="18423:18466" ph="SELECT * FRO... Albums" />
+            <marker date="1493929591904" expanded="true" signature="18820:18865" ph="SELECT * FRO... Artists" />
+            <marker date="1493929591904" expanded="true" signature="19201:19246" ph="SELECT * FRO... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="19638:19684" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="19729:19784" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="19884:19955" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493929591904" expanded="true" signature="20201:20240" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493929591904" expanded="true" signature="20437:20475" ph="SELECT * FRO... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="21767:21804" ph="SELECT * FRO... Users" />
+            <marker date="1493929591904" expanded="true" signature="23146:23164" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="23192:23211" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="23239:23256" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="24470:24527" ph="SELECT COUNT... Artists" />
+            <marker date="1493929591904" expanded="true" signature="24879:24916" ph="select COUNT... Artists" />
+            <marker date="1493929591904" expanded="true" signature="25269:25302" ph="INSERT INTO Artists... " />
+            <marker date="1493929591904" expanded="true" signature="25612:25660" ph="select Artis... Artists" />
+            <marker date="1493929591904" expanded="true" signature="25909:25964" ph="SELECT COUNT... Albums" />
+            <marker date="1493929591904" expanded="true" signature="26309:26344" ph="SELECT COUNT... Albums" />
+            <marker date="1493929591904" expanded="true" signature="26687:26721" ph="INSERT INTO Albums... " />
+            <marker date="1493929591904" expanded="true" signature="27135:27179" ph="select Album... Albums" />
+            <marker date="1493929591904" expanded="true" signature="28175:28218" ph="INSERT INTO Songs... " />
+            <marker date="1493929591904" expanded="true" signature="29103:29137" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="29365:29416" ph="UPDATE Users... " />
+            <marker date="1493929591904" expanded="true" signature="29525:29576" ph="UPDATE Users... " />
+            <marker date="1493929591904" expanded="true" signature="31665:31736" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493929591904" expanded="true" signature="31941:31981" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493929591904" expanded="true" signature="32306:32367" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="32687:32928" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493929591904" expanded="true" signature="33151:33170" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="34853:34891" ph="SELECT * FRO... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="35600:35657" ph="SELECT Playl... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="35735:35773" ph="INSERT INTO Playlists... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Coursework Snapshots/07-Feb-2017/Login Code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="93" column="50" lean-forward="true" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
+          <folding>
+            <marker date="1494165153053" expanded="true" signature="1392:1444" ph="SELECT COUNT... Users" />
+            <marker date="1494165153053" expanded="true" signature="1527:1576" ph="SELECT UserP... Users" />
+            <marker date="1494165153053" expanded="true" signature="2538:2571" ph="select COUNT... Users" />
+            <marker date="1494165153053" expanded="true" signature="2643:2693" ph="select COUNT... Users" />
+            <marker date="1494165153053" expanded="true" signature="3015:3048" ph="INSERT INTO Users... " />
+            <marker date="1494165153053" expanded="true" signature="3977:3996" ph="SELECT * FRO... Songs" />
+            <marker date="1494165153053" expanded="true" signature="4178:4198" ph="SELECT * FRO... Albums" />
+            <marker date="1494165153053" expanded="true" signature="4387:4408" ph="SELECT * FRO... Artists" />
+            <marker date="1494165153053" expanded="true" signature="4682:4719" ph="SELECT * FRO... Albums" />
+            <marker date="1494165153053" expanded="true" signature="4986:5021" ph="SELECT * FRO... Songs" />
+            <marker date="1494165153053" expanded="true" signature="5468:5507" ph="UPDATE Songs... " />
+            <marker date="1494165153053" expanded="true" signature="6865:6883" ph="DELETE FROM " />
+            <marker date="1494165153053" expanded="true" signature="6911:6930" ph="DELETE FROM " />
+            <marker date="1494165153053" expanded="true" signature="6958:6975" ph="DELETE FROM " />
+            <marker date="1494165153053" expanded="true" signature="8019:8076" ph="SELECT COUNT... Artists" />
+            <marker date="1494165153053" expanded="true" signature="8412:8449" ph="select COUNT... Artists" />
+            <marker date="1494165153053" expanded="true" signature="8786:8817" ph="INSERT INTO Artists... " />
+            <marker date="1494165153053" expanded="true" signature="9111:9159" ph="select Artis... Artists" />
+            <marker date="1494165153053" expanded="true" signature="9396:9451" ph="SELECT COUNT... Albums" />
+            <marker date="1494165153053" expanded="true" signature="9780:9815" ph="SELECT COUNT... Albums" />
+            <marker date="1494165153053" expanded="true" signature="10142:10174" ph="INSERT INTO Albums... " />
+            <marker date="1494165153053" expanded="true" signature="10569:10613" ph="select Album... Albums" />
+            <marker date="1494165153053" expanded="true" signature="11201:11244" ph="INSERT INTO Songs... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/60a01bd1/8a570770-b80f-411c-aad3-bbac2f187f41/main.PlaylistSongs">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project Bronx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
             <marker date="1493929591904" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
             <marker date="1493929591904" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
             <marker date="1493929591904" expanded="true" signature="3087:3128" ph="select UserI... Users" />
@@ -748,15 +983,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/60a01bd1/8a570770-b80f-411c-aad3-bbac2f187f41/main.PlaylistSongs">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -765,39 +999,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6423#8498#0" expanded="false" />
-            <element signature="e#9160#10463#0" expanded="false" />
-            <element signature="e#10494#10945#0" expanded="false" />
-            <element signature="e#10977#11418#0" expanded="false" />
-            <element signature="e#11451#11896#0" expanded="false" />
-            <element signature="e#11931#12214#0" expanded="false" />
-            <element signature="e#12266#12801#0" expanded="false" />
-            <element signature="e#12851#13359#0" expanded="false" />
-            <element signature="e#13412#14000#0" expanded="false" />
-            <element signature="e#14044#15012#0" expanded="false" />
-            <element signature="e#15042#15091#0" expanded="false" />
-            <element signature="e#15122#15170#0" expanded="false" />
-            <element signature="e#15204#15391#0" expanded="false" />
-            <element signature="e#15434#15584#0" expanded="false" />
-            <element signature="e#15628#15763#0" expanded="false" />
-            <element signature="e#15808#15940#0" expanded="false" />
-            <element signature="e#15976#16888#0" expanded="false" />
-            <element signature="e#16923#17637#0" expanded="false" />
-            <element signature="e#17669#19456#0" expanded="false" />
-            <element signature="e#19493#19514#0" expanded="false" />
-            <element signature="e#19552#19574#0" expanded="false" />
-            <element signature="e#19625#20305#0" expanded="false" />
-            <element signature="e#20346#20673#0" expanded="false" />
-            <element signature="e#20703#20714#0" expanded="false" />
-            <element signature="e#20790#29704#0" expanded="false" />
-            <element signature="e#20847#21556#0" expanded="false" />
-            <element signature="e#21602#22655#0" expanded="false" />
-            <element signature="e#22700#23090#0" expanded="false" />
-            <element signature="e#23133#28829#0" expanded="false" />
-            <element signature="e#28869#28987#0" expanded="false" />
-            <element signature="e#29025#29046#0" expanded="false" />
-            <element signature="e#29090#29261#0" expanded="false" />
-            <element signature="e#29306#29704#0" expanded="false" />
             <marker date="1493929591904" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
             <marker date="1493929591904" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
             <marker date="1493929591904" expanded="true" signature="3087:3128" ph="select UserI... Users" />
@@ -851,15 +1052,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/60a01bd1/8a570770-b80f-411c-aad3-bbac2f187f41/main.PlaylistSongs">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -868,39 +1068,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6423#8498#0" expanded="false" />
-            <element signature="e#9160#10463#0" expanded="false" />
-            <element signature="e#10494#10945#0" expanded="false" />
-            <element signature="e#10977#11418#0" expanded="false" />
-            <element signature="e#11451#11896#0" expanded="false" />
-            <element signature="e#11931#12214#0" expanded="false" />
-            <element signature="e#12266#12801#0" expanded="false" />
-            <element signature="e#12851#13359#0" expanded="false" />
-            <element signature="e#13412#14000#0" expanded="false" />
-            <element signature="e#14044#15012#0" expanded="false" />
-            <element signature="e#15042#15091#0" expanded="false" />
-            <element signature="e#15122#15170#0" expanded="false" />
-            <element signature="e#15204#15391#0" expanded="false" />
-            <element signature="e#15434#15584#0" expanded="false" />
-            <element signature="e#15628#15763#0" expanded="false" />
-            <element signature="e#15808#15940#0" expanded="false" />
-            <element signature="e#15976#16888#0" expanded="false" />
-            <element signature="e#16923#17637#0" expanded="false" />
-            <element signature="e#17669#19456#0" expanded="false" />
-            <element signature="e#19493#19514#0" expanded="false" />
-            <element signature="e#19552#19574#0" expanded="false" />
-            <element signature="e#19625#20305#0" expanded="false" />
-            <element signature="e#20346#20673#0" expanded="false" />
-            <element signature="e#20703#20714#0" expanded="false" />
-            <element signature="e#20790#29704#0" expanded="false" />
-            <element signature="e#20847#21556#0" expanded="false" />
-            <element signature="e#21602#22655#0" expanded="false" />
-            <element signature="e#22700#23090#0" expanded="false" />
-            <element signature="e#23133#28829#0" expanded="false" />
-            <element signature="e#28869#28987#0" expanded="false" />
-            <element signature="e#29025#29046#0" expanded="false" />
-            <element signature="e#29090#29261#0" expanded="false" />
-            <element signature="e#29306#29704#0" expanded="false" />
             <marker date="1493929591904" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
             <marker date="1493929591904" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
             <marker date="1493929591904" expanded="true" signature="3087:3128" ph="select UserI... Users" />
@@ -954,15 +1121,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/60a01bd1/8a570770-b80f-411c-aad3-bbac2f187f41/main.PlaylistSongs">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -971,39 +1137,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6423#8498#0" expanded="false" />
-            <element signature="e#9160#10463#0" expanded="false" />
-            <element signature="e#10494#10945#0" expanded="false" />
-            <element signature="e#10977#11418#0" expanded="false" />
-            <element signature="e#11451#11896#0" expanded="false" />
-            <element signature="e#11931#12214#0" expanded="false" />
-            <element signature="e#12266#12801#0" expanded="false" />
-            <element signature="e#12851#13359#0" expanded="false" />
-            <element signature="e#13412#14000#0" expanded="false" />
-            <element signature="e#14044#15012#0" expanded="false" />
-            <element signature="e#15042#15091#0" expanded="false" />
-            <element signature="e#15122#15170#0" expanded="false" />
-            <element signature="e#15204#15391#0" expanded="false" />
-            <element signature="e#15434#15584#0" expanded="false" />
-            <element signature="e#15628#15763#0" expanded="false" />
-            <element signature="e#15808#15940#0" expanded="false" />
-            <element signature="e#15976#16888#0" expanded="false" />
-            <element signature="e#16923#17637#0" expanded="false" />
-            <element signature="e#17669#19456#0" expanded="false" />
-            <element signature="e#19493#19514#0" expanded="false" />
-            <element signature="e#19552#19574#0" expanded="false" />
-            <element signature="e#19625#20305#0" expanded="false" />
-            <element signature="e#20346#20673#0" expanded="false" />
-            <element signature="e#20703#20714#0" expanded="false" />
-            <element signature="e#20790#29704#0" expanded="false" />
-            <element signature="e#20847#21556#0" expanded="false" />
-            <element signature="e#21602#22655#0" expanded="false" />
-            <element signature="e#22700#23090#0" expanded="false" />
-            <element signature="e#23133#28829#0" expanded="false" />
-            <element signature="e#28869#28987#0" expanded="false" />
-            <element signature="e#29025#29046#0" expanded="false" />
-            <element signature="e#29090#29261#0" expanded="false" />
-            <element signature="e#29306#29704#0" expanded="false" />
             <marker date="1493929591904" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
             <marker date="1493929591904" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
             <marker date="1493929591904" expanded="true" signature="3087:3128" ph="select UserI... Users" />
@@ -1057,15 +1190,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/60a01bd1/8a570770-b80f-411c-aad3-bbac2f187f41/main.PlaylistSongs">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1074,39 +1206,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6423#8498#0" expanded="false" />
-            <element signature="e#9160#10463#0" expanded="false" />
-            <element signature="e#10494#10945#0" expanded="false" />
-            <element signature="e#10977#11418#0" expanded="false" />
-            <element signature="e#11451#11896#0" expanded="false" />
-            <element signature="e#11931#12214#0" expanded="false" />
-            <element signature="e#12266#12801#0" expanded="false" />
-            <element signature="e#12851#13359#0" expanded="false" />
-            <element signature="e#13412#14000#0" expanded="false" />
-            <element signature="e#14044#15012#0" expanded="false" />
-            <element signature="e#15042#15091#0" expanded="false" />
-            <element signature="e#15122#15170#0" expanded="false" />
-            <element signature="e#15204#15391#0" expanded="false" />
-            <element signature="e#15434#15584#0" expanded="false" />
-            <element signature="e#15628#15763#0" expanded="false" />
-            <element signature="e#15808#15940#0" expanded="false" />
-            <element signature="e#15976#16888#0" expanded="false" />
-            <element signature="e#16923#17637#0" expanded="false" />
-            <element signature="e#17669#19456#0" expanded="false" />
-            <element signature="e#19493#19514#0" expanded="false" />
-            <element signature="e#19552#19574#0" expanded="false" />
-            <element signature="e#19625#20305#0" expanded="false" />
-            <element signature="e#20346#20673#0" expanded="false" />
-            <element signature="e#20703#20714#0" expanded="false" />
-            <element signature="e#20790#29704#0" expanded="false" />
-            <element signature="e#20847#21556#0" expanded="false" />
-            <element signature="e#21602#22655#0" expanded="false" />
-            <element signature="e#22700#23090#0" expanded="false" />
-            <element signature="e#23133#28829#0" expanded="false" />
-            <element signature="e#28869#28987#0" expanded="false" />
-            <element signature="e#29025#29046#0" expanded="false" />
-            <element signature="e#29090#29261#0" expanded="false" />
-            <element signature="e#29306#29704#0" expanded="false" />
             <marker date="1493929591904" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
             <marker date="1493929591904" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
             <marker date="1493929591904" expanded="true" signature="3087:3128" ph="select UserI... Users" />
@@ -1160,15 +1259,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/60a01bd1/8a570770-b80f-411c-aad3-bbac2f187f41/main.PlaylistSongs">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1177,39 +1275,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6423#8498#0" expanded="false" />
-            <element signature="e#9160#10463#0" expanded="false" />
-            <element signature="e#10494#10945#0" expanded="false" />
-            <element signature="e#10977#11418#0" expanded="false" />
-            <element signature="e#11451#11896#0" expanded="false" />
-            <element signature="e#11931#12214#0" expanded="false" />
-            <element signature="e#12266#12801#0" expanded="false" />
-            <element signature="e#12851#13359#0" expanded="false" />
-            <element signature="e#13412#14000#0" expanded="false" />
-            <element signature="e#14044#15012#0" expanded="false" />
-            <element signature="e#15042#15091#0" expanded="false" />
-            <element signature="e#15122#15170#0" expanded="false" />
-            <element signature="e#15204#15391#0" expanded="false" />
-            <element signature="e#15434#15584#0" expanded="false" />
-            <element signature="e#15628#15763#0" expanded="false" />
-            <element signature="e#15808#15940#0" expanded="false" />
-            <element signature="e#15976#16888#0" expanded="false" />
-            <element signature="e#16923#17637#0" expanded="false" />
-            <element signature="e#17669#19456#0" expanded="false" />
-            <element signature="e#19493#19514#0" expanded="false" />
-            <element signature="e#19552#19574#0" expanded="false" />
-            <element signature="e#19625#20305#0" expanded="false" />
-            <element signature="e#20346#20673#0" expanded="false" />
-            <element signature="e#20703#20714#0" expanded="false" />
-            <element signature="e#20790#29704#0" expanded="false" />
-            <element signature="e#20847#21556#0" expanded="false" />
-            <element signature="e#21602#22655#0" expanded="false" />
-            <element signature="e#22700#23090#0" expanded="false" />
-            <element signature="e#23133#28829#0" expanded="false" />
-            <element signature="e#28869#28987#0" expanded="false" />
-            <element signature="e#29025#29046#0" expanded="false" />
-            <element signature="e#29090#29261#0" expanded="false" />
-            <element signature="e#29306#29704#0" expanded="false" />
             <marker date="1493929591904" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
             <marker date="1493929591904" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
             <marker date="1493929591904" expanded="true" signature="3087:3128" ph="select UserI... Users" />
@@ -1263,15 +1328,83 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/60a01bd1/8a570770-b80f-411c-aad3-bbac2f187f41/main.PlaylistSongs">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Project Bronx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493929591904" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
+            <marker date="1493929591904" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
+            <marker date="1493929591904" expanded="true" signature="3087:3128" ph="select UserI... Users" />
+            <marker date="1493929591904" expanded="true" signature="3295:3343" ph="SELECT Admin... Users" />
+            <marker date="1493929591904" expanded="true" signature="5194:5239" ph="SELECT UserI... Users" />
+            <marker date="1493929591904" expanded="true" signature="5477:5527" ph="select COUNT... Users" />
+            <marker date="1493929591904" expanded="true" signature="6010:6043" ph="INSERT INTO Users... " />
+            <marker date="1493929591904" expanded="true" signature="10591:10628" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="11074:11117" ph="SELECT * FRO... Albums" />
+            <marker date="1493929591904" expanded="true" signature="11548:11593" ph="SELECT * FRO... Artists" />
+            <marker date="1493929591904" expanded="true" signature="12066:12116" ph="SELECT * FRO... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="12457:12517" ph="SELECT * FRO... Albums" />
+            <marker date="1493929591904" expanded="true" signature="13036:13092" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="13462:13785" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493929591904" expanded="true" signature="14446:14485" ph="UPDATE Songs... " />
+            <marker date="1493929591904" expanded="true" signature="18032:18073" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="18423:18466" ph="SELECT * FRO... Albums" />
+            <marker date="1493929591904" expanded="true" signature="18820:18865" ph="SELECT * FRO... Artists" />
+            <marker date="1493929591904" expanded="true" signature="19201:19246" ph="SELECT * FRO... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="19638:19684" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="19729:19784" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="19884:19955" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493929591904" expanded="true" signature="20201:20240" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493929591904" expanded="true" signature="20437:20475" ph="SELECT * FRO... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="21767:21804" ph="SELECT * FRO... Users" />
+            <marker date="1493929591904" expanded="true" signature="23146:23164" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="23192:23211" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="23239:23256" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="24470:24527" ph="SELECT COUNT... Artists" />
+            <marker date="1493929591904" expanded="true" signature="24879:24916" ph="select COUNT... Artists" />
+            <marker date="1493929591904" expanded="true" signature="25269:25302" ph="INSERT INTO Artists... " />
+            <marker date="1493929591904" expanded="true" signature="25612:25660" ph="select Artis... Artists" />
+            <marker date="1493929591904" expanded="true" signature="25909:25964" ph="SELECT COUNT... Albums" />
+            <marker date="1493929591904" expanded="true" signature="26309:26344" ph="SELECT COUNT... Albums" />
+            <marker date="1493929591904" expanded="true" signature="26687:26721" ph="INSERT INTO Albums... " />
+            <marker date="1493929591904" expanded="true" signature="27135:27179" ph="select Album... Albums" />
+            <marker date="1493929591904" expanded="true" signature="28175:28218" ph="INSERT INTO Songs... " />
+            <marker date="1493929591904" expanded="true" signature="29103:29137" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="29365:29416" ph="UPDATE Users... " />
+            <marker date="1493929591904" expanded="true" signature="29525:29576" ph="UPDATE Users... " />
+            <marker date="1493929591904" expanded="true" signature="31665:31736" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493929591904" expanded="true" signature="31941:31981" ph="INSERT INTO PlaylistSongs... " />
+            <marker date="1493929591904" expanded="true" signature="32306:32367" ph="DELETE FROM " />
+            <marker date="1493929591904" expanded="true" signature="32687:32928" ph="SELECT Playl... PlaylistSongs" />
+            <marker date="1493929591904" expanded="true" signature="33151:33170" ph="SELECT * FRO... Songs" />
+            <marker date="1493929591904" expanded="true" signature="34853:34891" ph="SELECT * FRO... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="35600:35657" ph="SELECT Playl... Playlists" />
+            <marker date="1493929591904" expanded="true" signature="35735:35773" ph="INSERT INTO Playlists... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/60a01bd1/8a570770-b80f-411c-aad3-bbac2f187f41/main.PlaylistSongs">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1280,39 +1413,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6423#8498#0" expanded="false" />
-            <element signature="e#9160#10463#0" expanded="false" />
-            <element signature="e#10494#10945#0" expanded="false" />
-            <element signature="e#10977#11418#0" expanded="false" />
-            <element signature="e#11451#11896#0" expanded="false" />
-            <element signature="e#11931#12214#0" expanded="false" />
-            <element signature="e#12266#12801#0" expanded="false" />
-            <element signature="e#12851#13359#0" expanded="false" />
-            <element signature="e#13412#14000#0" expanded="false" />
-            <element signature="e#14044#15012#0" expanded="false" />
-            <element signature="e#15042#15091#0" expanded="false" />
-            <element signature="e#15122#15170#0" expanded="false" />
-            <element signature="e#15204#15391#0" expanded="false" />
-            <element signature="e#15434#15584#0" expanded="false" />
-            <element signature="e#15628#15763#0" expanded="false" />
-            <element signature="e#15808#15940#0" expanded="false" />
-            <element signature="e#15976#16888#0" expanded="false" />
-            <element signature="e#16923#17637#0" expanded="false" />
-            <element signature="e#17669#19456#0" expanded="false" />
-            <element signature="e#19493#19514#0" expanded="false" />
-            <element signature="e#19552#19574#0" expanded="false" />
-            <element signature="e#19625#20305#0" expanded="false" />
-            <element signature="e#20346#20673#0" expanded="false" />
-            <element signature="e#20703#20714#0" expanded="false" />
-            <element signature="e#20790#29704#0" expanded="false" />
-            <element signature="e#20847#21556#0" expanded="false" />
-            <element signature="e#21602#22655#0" expanded="false" />
-            <element signature="e#22700#23090#0" expanded="false" />
-            <element signature="e#23133#28829#0" expanded="false" />
-            <element signature="e#28869#28987#0" expanded="false" />
-            <element signature="e#29025#29046#0" expanded="false" />
-            <element signature="e#29090#29261#0" expanded="false" />
-            <element signature="e#29306#29704#0" expanded="false" />
             <marker date="1493929591904" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
             <marker date="1493929591904" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
             <marker date="1493929591904" expanded="true" signature="3087:3128" ph="select UserI... Users" />
@@ -1370,39 +1470,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6423#8498#0" expanded="false" />
-            <element signature="e#9160#10463#0" expanded="false" />
-            <element signature="e#10494#10945#0" expanded="false" />
-            <element signature="e#10977#11418#0" expanded="false" />
-            <element signature="e#11451#11896#0" expanded="false" />
-            <element signature="e#11931#12214#0" expanded="false" />
-            <element signature="e#12266#12801#0" expanded="false" />
-            <element signature="e#12851#13359#0" expanded="false" />
-            <element signature="e#13412#14000#0" expanded="false" />
-            <element signature="e#14044#15012#0" expanded="false" />
-            <element signature="e#15042#15091#0" expanded="false" />
-            <element signature="e#15122#15170#0" expanded="false" />
-            <element signature="e#15204#15391#0" expanded="false" />
-            <element signature="e#15434#15584#0" expanded="false" />
-            <element signature="e#15628#15763#0" expanded="false" />
-            <element signature="e#15808#15940#0" expanded="false" />
-            <element signature="e#15976#16888#0" expanded="false" />
-            <element signature="e#16923#17637#0" expanded="false" />
-            <element signature="e#17669#19456#0" expanded="false" />
-            <element signature="e#19493#19514#0" expanded="false" />
-            <element signature="e#19552#19574#0" expanded="false" />
-            <element signature="e#19625#20305#0" expanded="false" />
-            <element signature="e#20346#20673#0" expanded="false" />
-            <element signature="e#20703#20714#0" expanded="false" />
-            <element signature="e#20790#29704#0" expanded="false" />
-            <element signature="e#20847#21556#0" expanded="false" />
-            <element signature="e#21602#22655#0" expanded="false" />
-            <element signature="e#22700#23090#0" expanded="false" />
-            <element signature="e#23133#28829#0" expanded="false" />
-            <element signature="e#28869#28987#0" expanded="false" />
-            <element signature="e#29025#29046#0" expanded="false" />
-            <element signature="e#29090#29261#0" expanded="false" />
-            <element signature="e#29306#29704#0" expanded="false" />
             <marker date="1493929591904" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
             <marker date="1493929591904" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
             <marker date="1493929591904" expanded="true" signature="3087:3128" ph="select UserI... Users" />
@@ -1460,39 +1527,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6423#8498#0" expanded="false" />
-            <element signature="e#9160#10463#0" expanded="false" />
-            <element signature="e#10494#10945#0" expanded="false" />
-            <element signature="e#10977#11418#0" expanded="false" />
-            <element signature="e#11451#11896#0" expanded="false" />
-            <element signature="e#11931#12214#0" expanded="false" />
-            <element signature="e#12266#12801#0" expanded="false" />
-            <element signature="e#12851#13359#0" expanded="false" />
-            <element signature="e#13412#14000#0" expanded="false" />
-            <element signature="e#14044#15012#0" expanded="false" />
-            <element signature="e#15042#15091#0" expanded="false" />
-            <element signature="e#15122#15170#0" expanded="false" />
-            <element signature="e#15204#15391#0" expanded="false" />
-            <element signature="e#15434#15584#0" expanded="false" />
-            <element signature="e#15628#15763#0" expanded="false" />
-            <element signature="e#15808#15940#0" expanded="false" />
-            <element signature="e#15976#16888#0" expanded="false" />
-            <element signature="e#16923#17637#0" expanded="false" />
-            <element signature="e#17669#19456#0" expanded="false" />
-            <element signature="e#19493#19514#0" expanded="false" />
-            <element signature="e#19552#19574#0" expanded="false" />
-            <element signature="e#19625#20305#0" expanded="false" />
-            <element signature="e#20346#20673#0" expanded="false" />
-            <element signature="e#20703#20714#0" expanded="false" />
-            <element signature="e#20790#29704#0" expanded="false" />
-            <element signature="e#20847#21556#0" expanded="false" />
-            <element signature="e#21602#22655#0" expanded="false" />
-            <element signature="e#22700#23090#0" expanded="false" />
-            <element signature="e#23133#28829#0" expanded="false" />
-            <element signature="e#28869#28987#0" expanded="false" />
-            <element signature="e#29025#29046#0" expanded="false" />
-            <element signature="e#29090#29261#0" expanded="false" />
-            <element signature="e#29306#29704#0" expanded="false" />
             <marker date="1493929591904" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
             <marker date="1493929591904" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
             <marker date="1493929591904" expanded="true" signature="3087:3128" ph="select UserI... Users" />
@@ -1550,39 +1584,6 @@
         <state relative-caret-position="4641">
           <caret line="230" column="29" lean-forward="false" selection-start-line="230" selection-start-column="29" selection-end-line="230" selection-end-column="29" />
           <folding>
-            <element signature="e#6423#8498#0" expanded="false" />
-            <element signature="e#9160#10463#0" expanded="false" />
-            <element signature="e#10494#10945#0" expanded="false" />
-            <element signature="e#10977#11418#0" expanded="false" />
-            <element signature="e#11451#11896#0" expanded="false" />
-            <element signature="e#11931#12214#0" expanded="false" />
-            <element signature="e#12266#12801#0" expanded="false" />
-            <element signature="e#12851#13359#0" expanded="false" />
-            <element signature="e#13412#14000#0" expanded="false" />
-            <element signature="e#14044#15012#0" expanded="false" />
-            <element signature="e#15042#15091#0" expanded="false" />
-            <element signature="e#15122#15170#0" expanded="false" />
-            <element signature="e#15204#15391#0" expanded="false" />
-            <element signature="e#15434#15584#0" expanded="false" />
-            <element signature="e#15628#15763#0" expanded="false" />
-            <element signature="e#15808#15940#0" expanded="false" />
-            <element signature="e#15976#16888#0" expanded="false" />
-            <element signature="e#16923#17637#0" expanded="false" />
-            <element signature="e#17669#19456#0" expanded="false" />
-            <element signature="e#19493#19514#0" expanded="false" />
-            <element signature="e#19552#19574#0" expanded="false" />
-            <element signature="e#19625#20305#0" expanded="false" />
-            <element signature="e#20346#20673#0" expanded="false" />
-            <element signature="e#20703#20714#0" expanded="false" />
-            <element signature="e#20790#29704#0" expanded="false" />
-            <element signature="e#20847#21556#0" expanded="false" />
-            <element signature="e#21602#22655#0" expanded="false" />
-            <element signature="e#22700#23090#0" expanded="false" />
-            <element signature="e#23133#28829#0" expanded="false" />
-            <element signature="e#28869#28987#0" expanded="false" />
-            <element signature="e#29025#29046#0" expanded="false" />
-            <element signature="e#29090#29261#0" expanded="false" />
-            <element signature="e#29306#29704#0" expanded="false" />
             <marker date="1493929591904" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
             <marker date="1493929591904" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
             <marker date="1493929591904" expanded="true" signature="3087:3128" ph="select UserI... Users" />
@@ -1636,55 +1637,22 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/60a01bd1/8a570770-b80f-411c-aad3-bbac2f187f41/main.Songs">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Project Bronx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6423#8498#0" expanded="false" />
-            <element signature="e#9160#10463#0" expanded="false" />
-            <element signature="e#10494#10945#0" expanded="false" />
-            <element signature="e#10977#11418#0" expanded="false" />
-            <element signature="e#11451#11896#0" expanded="false" />
-            <element signature="e#11931#12214#0" expanded="false" />
-            <element signature="e#12266#12801#0" expanded="false" />
-            <element signature="e#12851#13359#0" expanded="false" />
-            <element signature="e#13412#14000#0" expanded="false" />
-            <element signature="e#14044#15012#0" expanded="false" />
-            <element signature="e#15042#15091#0" expanded="false" />
-            <element signature="e#15122#15170#0" expanded="false" />
-            <element signature="e#15204#15391#0" expanded="false" />
-            <element signature="e#15434#15584#0" expanded="false" />
-            <element signature="e#15628#15763#0" expanded="false" />
-            <element signature="e#15808#15940#0" expanded="false" />
-            <element signature="e#15976#16888#0" expanded="false" />
-            <element signature="e#16923#17637#0" expanded="false" />
-            <element signature="e#17669#19456#0" expanded="false" />
-            <element signature="e#19493#19514#0" expanded="false" />
-            <element signature="e#19552#19574#0" expanded="false" />
-            <element signature="e#19625#20305#0" expanded="false" />
-            <element signature="e#20346#20673#0" expanded="false" />
-            <element signature="e#20703#20714#0" expanded="false" />
-            <element signature="e#20790#29704#0" expanded="false" />
-            <element signature="e#20847#21556#0" expanded="false" />
-            <element signature="e#21602#22655#0" expanded="false" />
-            <element signature="e#22700#23090#0" expanded="false" />
-            <element signature="e#23133#28829#0" expanded="false" />
-            <element signature="e#28869#28987#0" expanded="false" />
-            <element signature="e#29025#29046#0" expanded="false" />
-            <element signature="e#29090#29261#0" expanded="false" />
-            <element signature="e#29306#29704#0" expanded="false" />
             <marker date="1493929591904" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
             <marker date="1493929591904" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
             <marker date="1493929591904" expanded="true" signature="3087:3128" ph="select UserI... Users" />
@@ -1742,39 +1710,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6423#8498#0" expanded="false" />
-            <element signature="e#9160#10463#0" expanded="false" />
-            <element signature="e#10494#10945#0" expanded="false" />
-            <element signature="e#10977#11418#0" expanded="false" />
-            <element signature="e#11451#11896#0" expanded="false" />
-            <element signature="e#11931#12214#0" expanded="false" />
-            <element signature="e#12266#12801#0" expanded="false" />
-            <element signature="e#12851#13359#0" expanded="false" />
-            <element signature="e#13412#14000#0" expanded="false" />
-            <element signature="e#14044#15012#0" expanded="false" />
-            <element signature="e#15042#15091#0" expanded="false" />
-            <element signature="e#15122#15170#0" expanded="false" />
-            <element signature="e#15204#15391#0" expanded="false" />
-            <element signature="e#15434#15584#0" expanded="false" />
-            <element signature="e#15628#15763#0" expanded="false" />
-            <element signature="e#15808#15940#0" expanded="false" />
-            <element signature="e#15976#16888#0" expanded="false" />
-            <element signature="e#16923#17637#0" expanded="false" />
-            <element signature="e#17669#19456#0" expanded="false" />
-            <element signature="e#19493#19514#0" expanded="false" />
-            <element signature="e#19552#19574#0" expanded="false" />
-            <element signature="e#19625#20305#0" expanded="false" />
-            <element signature="e#20346#20673#0" expanded="false" />
-            <element signature="e#20703#20714#0" expanded="false" />
-            <element signature="e#20790#29704#0" expanded="false" />
-            <element signature="e#20847#21556#0" expanded="false" />
-            <element signature="e#21602#22655#0" expanded="false" />
-            <element signature="e#22700#23090#0" expanded="false" />
-            <element signature="e#23133#28829#0" expanded="false" />
-            <element signature="e#28869#28987#0" expanded="false" />
-            <element signature="e#29025#29046#0" expanded="false" />
-            <element signature="e#29090#29261#0" expanded="false" />
-            <element signature="e#29306#29704#0" expanded="false" />
             <marker date="1493929591904" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
             <marker date="1493929591904" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
             <marker date="1493929591904" expanded="true" signature="3087:3128" ph="select UserI... Users" />
@@ -1832,39 +1767,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6423#8498#0" expanded="false" />
-            <element signature="e#9160#10463#0" expanded="false" />
-            <element signature="e#10494#10945#0" expanded="false" />
-            <element signature="e#10977#11418#0" expanded="false" />
-            <element signature="e#11451#11896#0" expanded="false" />
-            <element signature="e#11931#12214#0" expanded="false" />
-            <element signature="e#12266#12801#0" expanded="false" />
-            <element signature="e#12851#13359#0" expanded="false" />
-            <element signature="e#13412#14000#0" expanded="false" />
-            <element signature="e#14044#15012#0" expanded="false" />
-            <element signature="e#15042#15091#0" expanded="false" />
-            <element signature="e#15122#15170#0" expanded="false" />
-            <element signature="e#15204#15391#0" expanded="false" />
-            <element signature="e#15434#15584#0" expanded="false" />
-            <element signature="e#15628#15763#0" expanded="false" />
-            <element signature="e#15808#15940#0" expanded="false" />
-            <element signature="e#15976#16888#0" expanded="false" />
-            <element signature="e#16923#17637#0" expanded="false" />
-            <element signature="e#17669#19456#0" expanded="false" />
-            <element signature="e#19493#19514#0" expanded="false" />
-            <element signature="e#19552#19574#0" expanded="false" />
-            <element signature="e#19625#20305#0" expanded="false" />
-            <element signature="e#20346#20673#0" expanded="false" />
-            <element signature="e#20703#20714#0" expanded="false" />
-            <element signature="e#20790#29704#0" expanded="false" />
-            <element signature="e#20847#21556#0" expanded="false" />
-            <element signature="e#21602#22655#0" expanded="false" />
-            <element signature="e#22700#23090#0" expanded="false" />
-            <element signature="e#23133#28829#0" expanded="false" />
-            <element signature="e#28869#28987#0" expanded="false" />
-            <element signature="e#29025#29046#0" expanded="false" />
-            <element signature="e#29090#29261#0" expanded="false" />
-            <element signature="e#29306#29704#0" expanded="false" />
             <marker date="1493929591904" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
             <marker date="1493929591904" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
             <marker date="1493929591904" expanded="true" signature="3087:3128" ph="select UserI... Users" />
@@ -1922,39 +1824,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6423#8498#0" expanded="false" />
-            <element signature="e#9160#10463#0" expanded="false" />
-            <element signature="e#10494#10945#0" expanded="false" />
-            <element signature="e#10977#11418#0" expanded="false" />
-            <element signature="e#11451#11896#0" expanded="false" />
-            <element signature="e#11931#12214#0" expanded="false" />
-            <element signature="e#12266#12801#0" expanded="false" />
-            <element signature="e#12851#13359#0" expanded="false" />
-            <element signature="e#13412#14000#0" expanded="false" />
-            <element signature="e#14044#15012#0" expanded="false" />
-            <element signature="e#15042#15091#0" expanded="false" />
-            <element signature="e#15122#15170#0" expanded="false" />
-            <element signature="e#15204#15391#0" expanded="false" />
-            <element signature="e#15434#15584#0" expanded="false" />
-            <element signature="e#15628#15763#0" expanded="false" />
-            <element signature="e#15808#15940#0" expanded="false" />
-            <element signature="e#15976#16888#0" expanded="false" />
-            <element signature="e#16923#17637#0" expanded="false" />
-            <element signature="e#17669#19456#0" expanded="false" />
-            <element signature="e#19493#19514#0" expanded="false" />
-            <element signature="e#19552#19574#0" expanded="false" />
-            <element signature="e#19625#20305#0" expanded="false" />
-            <element signature="e#20346#20673#0" expanded="false" />
-            <element signature="e#20703#20714#0" expanded="false" />
-            <element signature="e#20790#29704#0" expanded="false" />
-            <element signature="e#20847#21556#0" expanded="false" />
-            <element signature="e#21602#22655#0" expanded="false" />
-            <element signature="e#22700#23090#0" expanded="false" />
-            <element signature="e#23133#28829#0" expanded="false" />
-            <element signature="e#28869#28987#0" expanded="false" />
-            <element signature="e#29025#29046#0" expanded="false" />
-            <element signature="e#29090#29261#0" expanded="false" />
-            <element signature="e#29306#29704#0" expanded="false" />
             <marker date="1493929591904" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
             <marker date="1493929591904" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
             <marker date="1493929591904" expanded="true" signature="3087:3128" ph="select UserI... Users" />
@@ -2012,39 +1881,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6423#8498#0" expanded="false" />
-            <element signature="e#9160#10463#0" expanded="false" />
-            <element signature="e#10494#10945#0" expanded="false" />
-            <element signature="e#10977#11418#0" expanded="false" />
-            <element signature="e#11451#11896#0" expanded="false" />
-            <element signature="e#11931#12214#0" expanded="false" />
-            <element signature="e#12266#12801#0" expanded="false" />
-            <element signature="e#12851#13359#0" expanded="false" />
-            <element signature="e#13412#14000#0" expanded="false" />
-            <element signature="e#14044#15012#0" expanded="false" />
-            <element signature="e#15042#15091#0" expanded="false" />
-            <element signature="e#15122#15170#0" expanded="false" />
-            <element signature="e#15204#15391#0" expanded="false" />
-            <element signature="e#15434#15584#0" expanded="false" />
-            <element signature="e#15628#15763#0" expanded="false" />
-            <element signature="e#15808#15940#0" expanded="false" />
-            <element signature="e#15976#16888#0" expanded="false" />
-            <element signature="e#16923#17637#0" expanded="false" />
-            <element signature="e#17669#19456#0" expanded="false" />
-            <element signature="e#19493#19514#0" expanded="false" />
-            <element signature="e#19552#19574#0" expanded="false" />
-            <element signature="e#19625#20305#0" expanded="false" />
-            <element signature="e#20346#20673#0" expanded="false" />
-            <element signature="e#20703#20714#0" expanded="false" />
-            <element signature="e#20790#29704#0" expanded="false" />
-            <element signature="e#20847#21556#0" expanded="false" />
-            <element signature="e#21602#22655#0" expanded="false" />
-            <element signature="e#22700#23090#0" expanded="false" />
-            <element signature="e#23133#28829#0" expanded="false" />
-            <element signature="e#28869#28987#0" expanded="false" />
-            <element signature="e#29025#29046#0" expanded="false" />
-            <element signature="e#29090#29261#0" expanded="false" />
-            <element signature="e#29306#29704#0" expanded="false" />
             <marker date="1493929591904" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
             <marker date="1493929591904" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
             <marker date="1493929591904" expanded="true" signature="3087:3128" ph="select UserI... Users" />
@@ -2102,39 +1938,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6423#8498#0" expanded="false" />
-            <element signature="e#9160#10463#0" expanded="false" />
-            <element signature="e#10494#10945#0" expanded="false" />
-            <element signature="e#10977#11418#0" expanded="false" />
-            <element signature="e#11451#11896#0" expanded="false" />
-            <element signature="e#11931#12214#0" expanded="false" />
-            <element signature="e#12266#12801#0" expanded="false" />
-            <element signature="e#12851#13359#0" expanded="false" />
-            <element signature="e#13412#14000#0" expanded="false" />
-            <element signature="e#14044#15012#0" expanded="false" />
-            <element signature="e#15042#15091#0" expanded="false" />
-            <element signature="e#15122#15170#0" expanded="false" />
-            <element signature="e#15204#15391#0" expanded="false" />
-            <element signature="e#15434#15584#0" expanded="false" />
-            <element signature="e#15628#15763#0" expanded="false" />
-            <element signature="e#15808#15940#0" expanded="false" />
-            <element signature="e#15976#16888#0" expanded="false" />
-            <element signature="e#16923#17637#0" expanded="false" />
-            <element signature="e#17669#19456#0" expanded="false" />
-            <element signature="e#19493#19514#0" expanded="false" />
-            <element signature="e#19552#19574#0" expanded="false" />
-            <element signature="e#19625#20305#0" expanded="false" />
-            <element signature="e#20346#20673#0" expanded="false" />
-            <element signature="e#20703#20714#0" expanded="false" />
-            <element signature="e#20790#29704#0" expanded="false" />
-            <element signature="e#20847#21556#0" expanded="false" />
-            <element signature="e#21602#22655#0" expanded="false" />
-            <element signature="e#22700#23090#0" expanded="false" />
-            <element signature="e#23133#28829#0" expanded="false" />
-            <element signature="e#28869#28987#0" expanded="false" />
-            <element signature="e#29025#29046#0" expanded="false" />
-            <element signature="e#29090#29261#0" expanded="false" />
-            <element signature="e#29306#29704#0" expanded="false" />
             <marker date="1493929591904" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
             <marker date="1493929591904" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
             <marker date="1493929591904" expanded="true" signature="3087:3128" ph="select UserI... Users" />
@@ -2221,26 +2024,26 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/60a01bd1/8a570770-b80f-411c-aad3-bbac2f187f41/main.Songs">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/60a01bd1/8a570770-b80f-411c-aad3-bbac2f187f41/main.Users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -2248,20 +2051,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="501" column="0" lean-forward="true" selection-start-line="501" selection-start-column="0" selection-end-line="501" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/60a01bd1/8a570770-b80f-411c-aad3-bbac2f187f41/main.PlaylistSongs">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -2269,72 +2070,136 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="79" column="6" lean-forward="false" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#C:/Users/richa/OneDrive/Documents/coursework/Code/Project Bronx.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#C:/Users/richa/OneDrive/Documents/coursework/Code/Project Bronx.py</OriginalElement>
+          <nodes>
+            <node x="" y="">ui_mainWindow</node>
+            <node x="" y="">PyQt4.QtGui.QPaintDevice.QPaintDevice</node>
+            <node x="" y="">ui_loginWindow</node>
+            <node x="" y="">PyQt4.QtGui.QWidget.QWidget</node>
+            <node x="" y="">object</node>
+            <node x="" y="">ui_settingsWindow</node>
+            <node x="" y="">PyQt4.QtGui.QMainWindow.QMainWindow</node>
+            <node x="" y="">ui_playlistDialog</node>
+            <node x="" y="">PyQt4.QtCore.QObject.QObject</node>
+            <node x="" y="">_collections_abc.Hashable</node>
+            <node x="" y="">ui_createAccountWindow</node>
+            <node x="" y="">PyQt4.QtGui.QDialog.QDialog</node>
+            <node x="" y="">ui_playlistWindow</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8130457113507961" x="793.0" y="343.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/richa/OneDrive/Documents/coursework/Coursework Snapshots/07-Feb-2017">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/../Coursework Snapshots/07-Feb-2017</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="1171.0" y="619.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/richa/OneDrive/Documents/coursework/Code">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="1171.0" y="619.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Coursework Snapshots/07-Feb-2017/Login Code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="119" column="32" lean-forward="false" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
           <folding>
-            <marker date="1493366207130" expanded="true" signature="1365:1417" ph="SELECT COUNT... Users" />
-            <marker date="1493366207130" expanded="true" signature="1500:1549" ph="SELECT UserP... Users" />
-            <marker date="1493366207130" expanded="true" signature="2511:2544" ph="select COUNT... Users" />
-            <marker date="1493366207130" expanded="true" signature="2616:2666" ph="select COUNT... Users" />
-            <marker date="1493366207130" expanded="true" signature="2988:3021" ph="INSERT INTO Users... " />
-            <marker date="1493366207130" expanded="true" signature="5518:5558" ph="SELECT * FRO... Songs" />
-            <marker date="1493366207130" expanded="true" signature="5900:5943" ph="SELECT * FRO... Albums" />
-            <marker date="1493366207130" expanded="true" signature="6270:6315" ph="SELECT * FRO... Artists" />
-            <marker date="1493366207130" expanded="true" signature="6746:6806" ph="SELECT * FRO... Albums" />
-            <marker date="1493366207130" expanded="true" signature="7211:7264" ph="SELECT * FRO... Songs" />
-            <marker date="1493366207130" expanded="true" signature="7873:7912" ph="UPDATE Songs... " />
-            <marker date="1493366207130" expanded="true" signature="9445:9463" ph="DELETE FROM " />
-            <marker date="1493366207130" expanded="true" signature="9491:9510" ph="DELETE FROM " />
-            <marker date="1493366207130" expanded="true" signature="9538:9555" ph="DELETE FROM " />
-            <marker date="1493366207130" expanded="true" signature="10590:10647" ph="SELECT COUNT... Artists" />
-            <marker date="1493366207130" expanded="true" signature="10983:11020" ph="select COUNT... Artists" />
-            <marker date="1493366207130" expanded="true" signature="11357:11390" ph="INSERT INTO Artists... " />
-            <marker date="1493366207130" expanded="true" signature="11684:11732" ph="select Artis... Artists" />
-            <marker date="1493366207130" expanded="true" signature="11969:12024" ph="SELECT COUNT... Albums" />
-            <marker date="1493366207130" expanded="true" signature="12353:12388" ph="SELECT COUNT... Albums" />
-            <marker date="1493366207130" expanded="true" signature="12715:12749" ph="INSERT INTO Albums... " />
-            <marker date="1493366207130" expanded="true" signature="13146:13190" ph="select Album... Albums" />
-            <marker date="1493366207130" expanded="true" signature="14069:14114" ph="INSERT INTO Songs... " />
+            <marker date="1494165153053" expanded="true" signature="1392:1444" ph="SELECT COUNT... Users" />
+            <marker date="1494165153053" expanded="true" signature="1527:1576" ph="SELECT UserP... Users" />
+            <marker date="1494165153053" expanded="true" signature="2538:2571" ph="select COUNT... Users" />
+            <marker date="1494165153053" expanded="true" signature="2643:2693" ph="select COUNT... Users" />
+            <marker date="1494165153053" expanded="true" signature="3015:3048" ph="INSERT INTO Users... " />
+            <marker date="1494165153053" expanded="true" signature="3977:3996" ph="SELECT * FRO... Songs" />
+            <marker date="1494165153053" expanded="true" signature="4178:4198" ph="SELECT * FRO... Albums" />
+            <marker date="1494165153053" expanded="true" signature="4387:4408" ph="SELECT * FRO... Artists" />
+            <marker date="1494165153053" expanded="true" signature="4682:4719" ph="SELECT * FRO... Albums" />
+            <marker date="1494165153053" expanded="true" signature="4986:5021" ph="SELECT * FRO... Songs" />
+            <marker date="1494165153053" expanded="true" signature="5468:5507" ph="UPDATE Songs... " />
+            <marker date="1494165153053" expanded="true" signature="6865:6883" ph="DELETE FROM " />
+            <marker date="1494165153053" expanded="true" signature="6911:6930" ph="DELETE FROM " />
+            <marker date="1494165153053" expanded="true" signature="6958:6975" ph="DELETE FROM " />
+            <marker date="1494165153053" expanded="true" signature="8019:8076" ph="SELECT COUNT... Artists" />
+            <marker date="1494165153053" expanded="true" signature="8412:8449" ph="select COUNT... Artists" />
+            <marker date="1494165153053" expanded="true" signature="8786:8817" ph="INSERT INTO Artists... " />
+            <marker date="1494165153053" expanded="true" signature="9111:9159" ph="select Artis... Artists" />
+            <marker date="1494165153053" expanded="true" signature="9396:9451" ph="SELECT COUNT... Albums" />
+            <marker date="1494165153053" expanded="true" signature="9780:9815" ph="SELECT COUNT... Albums" />
+            <marker date="1494165153053" expanded="true" signature="10142:10174" ph="INSERT INTO Albums... " />
+            <marker date="1494165153053" expanded="true" signature="10569:10613" ph="select Album... Albums" />
+            <marker date="1494165153053" expanded="true" signature="11201:11244" ph="INSERT INTO Songs... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/8a570770-b80f-411c-aad3-bbac2f187f41">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>8a570770-b80f-411c-aad3-bbac2f187f41</OriginalElement>
+          <nodes>
+            <node x="" y="">8a570770-b80f-411c-aad3-bbac2f187f41.TABLE:main.Songs</node>
+            <node x="" y="">8a570770-b80f-411c-aad3-bbac2f187f41.TABLE:main.PlaylistSongs</node>
+            <node x="" y="">8a570770-b80f-411c-aad3-bbac2f187f41.TABLE:main.Albums</node>
+            <node x="" y="">8a570770-b80f-411c-aad3-bbac2f187f41.TABLE:main.Artists</node>
+            <node x="" y="">8a570770-b80f-411c-aad3-bbac2f187f41.TABLE:main.Users</node>
+            <node x="" y="">8a570770-b80f-411c-aad3-bbac2f187f41.TABLE:main.Playlists</node>
+            <node x="" y="">8a570770-b80f-411c-aad3-bbac2f187f41.TABLE:main.sqlite_master</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9" x="390.44444444444434" y="428.77777777777777" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Project Bronx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="62" column="6" lean-forward="false" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
+        <state relative-caret-position="1659">
+          <caret line="105" column="67" lean-forward="true" selection-start-line="105" selection-start-column="67" selection-end-line="105" selection-end-column="67" />
           <folding>
-            <element signature="e#6423#8498#0" expanded="false" />
-            <element signature="e#9160#10463#0" expanded="false" />
-            <element signature="e#10494#10945#0" expanded="false" />
-            <element signature="e#10977#11418#0" expanded="false" />
-            <element signature="e#11451#11896#0" expanded="false" />
-            <element signature="e#11931#12214#0" expanded="false" />
-            <element signature="e#12266#12801#0" expanded="false" />
-            <element signature="e#12851#13359#0" expanded="false" />
-            <element signature="e#13412#14000#0" expanded="false" />
-            <element signature="e#14044#15012#0" expanded="false" />
-            <element signature="e#15042#15091#0" expanded="false" />
-            <element signature="e#15122#15170#0" expanded="false" />
-            <element signature="e#15204#15391#0" expanded="false" />
-            <element signature="e#15434#15584#0" expanded="false" />
-            <element signature="e#15628#15763#0" expanded="false" />
-            <element signature="e#15808#15940#0" expanded="false" />
-            <element signature="e#15976#16888#0" expanded="false" />
-            <element signature="e#16923#17637#0" expanded="false" />
-            <element signature="e#17669#19456#0" expanded="false" />
-            <element signature="e#19493#19514#0" expanded="false" />
-            <element signature="e#19552#19574#0" expanded="false" />
-            <element signature="e#19625#20305#0" expanded="false" />
-            <element signature="e#20346#20673#0" expanded="false" />
-            <element signature="e#20703#20714#0" expanded="false" />
-            <element signature="e#20790#29704#0" expanded="false" />
-            <element signature="e#20847#21556#0" expanded="false" />
-            <element signature="e#21602#22655#0" expanded="false" />
-            <element signature="e#22700#23090#0" expanded="false" />
-            <element signature="e#23133#28829#0" expanded="false" />
-            <element signature="e#28869#28987#0" expanded="false" />
-            <element signature="e#29025#29046#0" expanded="false" />
-            <element signature="e#29090#29261#0" expanded="false" />
-            <element signature="e#29306#29704#0" expanded="false" />
             <marker date="1493929591904" expanded="true" signature="2284:2336" ph="SELECT COUNT... Users" />
             <marker date="1493929591904" expanded="true" signature="2801:2850" ph="SELECT UserP... Users" />
             <marker date="1493929591904" expanded="true" signature="3087:3128" ph="select UserI... Users" />
@@ -2383,39 +2248,6 @@
             <marker date="1493929591904" expanded="true" signature="34853:34891" ph="SELECT * FRO... Playlists" />
             <marker date="1493929591904" expanded="true" signature="35600:35657" ph="SELECT Playl... Playlists" />
             <marker date="1493929591904" expanded="true" signature="35735:35773" ph="INSERT INTO Playlists... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Coursework Snapshots/07-Feb-2017/Login Code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="93" column="50" lean-forward="true" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
-          <folding>
-            <element signature="e#6547#11957#0" expanded="false" />
-            <marker date="1493366207020" expanded="true" signature="1392:1444" ph="SELECT COUNT... Users" />
-            <marker date="1493366207020" expanded="true" signature="1527:1576" ph="SELECT UserP... Users" />
-            <marker date="1493366207020" expanded="true" signature="2538:2571" ph="select COUNT... Users" />
-            <marker date="1493366207020" expanded="true" signature="2643:2693" ph="select COUNT... Users" />
-            <marker date="1493366207020" expanded="true" signature="3015:3048" ph="INSERT INTO Users... " />
-            <marker date="1493366207020" expanded="true" signature="3977:3996" ph="SELECT * FRO... Songs" />
-            <marker date="1493366207020" expanded="true" signature="4178:4198" ph="SELECT * FRO... Albums" />
-            <marker date="1493366207020" expanded="true" signature="4387:4408" ph="SELECT * FRO... Artists" />
-            <marker date="1493366207020" expanded="true" signature="4733:4770" ph="SELECT * FRO... Albums" />
-            <marker date="1493366207020" expanded="true" signature="5037:5072" ph="SELECT * FRO... Songs" />
-            <marker date="1493366207020" expanded="true" signature="5519:5558" ph="UPDATE Songs... " />
-            <marker date="1493366207020" expanded="true" signature="6916:6934" ph="DELETE FROM " />
-            <marker date="1493366207020" expanded="true" signature="6962:6981" ph="DELETE FROM " />
-            <marker date="1493366207020" expanded="true" signature="7009:7026" ph="DELETE FROM " />
-            <marker date="1493366207020" expanded="true" signature="8070:8127" ph="SELECT COUNT... Artists" />
-            <marker date="1493366207020" expanded="true" signature="8463:8500" ph="select COUNT... Artists" />
-            <marker date="1493366207020" expanded="true" signature="8837:8868" ph="INSERT INTO Artists... " />
-            <marker date="1493366207020" expanded="true" signature="9162:9210" ph="select Artis... Artists" />
-            <marker date="1493366207020" expanded="true" signature="9447:9502" ph="SELECT COUNT... Albums" />
-            <marker date="1493366207020" expanded="true" signature="9831:9866" ph="SELECT COUNT... Albums" />
-            <marker date="1493366207020" expanded="true" signature="10193:10225" ph="INSERT INTO Albums... " />
-            <marker date="1493366207020" expanded="true" signature="10620:10664" ph="select Album... Albums" />
-            <marker date="1493366207020" expanded="true" signature="11252:11295" ph="INSERT INTO Songs... " />
           </folding>
         </state>
       </provider>
