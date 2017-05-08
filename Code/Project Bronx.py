@@ -35,10 +35,12 @@ class LoginWindowClass(QtGui.QMainWindow, ui_loginWindow):
         print(str_username, str_password)  # prints users inputs
         cur.execute("SELECT COUNT(Username) FROM Users WHERE UserName = ?", (str(str_username),))  # checks to see if
         # username is in the database
+        results = (cur.fetchone()[0])
         if str_username == "" or str_password == "":  # Validates user's inputs to make sure that no fields
             # have been left empty
             self.lbl_info.setText("Field(s) Empty")  # Notifies user if any fields are empty
-        elif cur.fetchone()[0] >= 0:  # Validates to see if username was found in database. Else, a message is displayed
+        elif results != 0:  # Validates to see if username was found in database. Else, a message is displayed
+            print("username accepted")
             cur.execute("SELECT UserPassword FROM Users WHERE UserName = ?", (str(str_username),))  # retrieves password
             # belonging to username from database
             if cur.fetchone()[0] == str_passwordhash:  # validate user's password against password in database
@@ -219,7 +221,7 @@ class MainWindowClass(QtGui.QMainWindow, ui_mainWindow):
 
     def playlists_to_songs(self, details):
         int_playlist_id = details[0]
-        cur.execute("SELECT PlaylistSongs.SongID, Songs.TrackNumber, Songs.SongName, Songs.SongRating, Songs.Genre,"
+        cur.execute("SELECT PlaylistSongs.SongID, Songs.TrackNumber, Songs.SongName, Songs.Genre,"
                     " Songs.FileLocation, Songs.AlbumID, Songs.Length, Songs.Plays, Songs.Type FROM PlaylistSongs "
                     "INNER JOIN Songs ON PlaylistSongs.SongID = Songs.SongID WHERE PlaylistSongs.PlaylistID = ?"
                     , (int(int_playlist_id),))
@@ -607,7 +609,7 @@ class PlaylistWindowClass(QtGui.QMainWindow, ui_playlistWindow):
         PlaylistWindow.hide()
 
     def playlist_reset(self):
-        cur.execute("SELECT * FROM Playlists WHERE UserID=?", (int(LoginWindow.userID),))
+        cur.execute("SELECT * FROM Playlists WHERE UserID=?", (int(LoginWindow.int_userID),))
         self.lst_playlistData = cur.fetchall()
         self.load_playlist_data(self.lst_playlistData)
 
@@ -625,12 +627,12 @@ class PlaylistDialogClass(QtGui.QDialog, ui_playlistDialog):
     def add_playlist(self):
         playlistName = self.txt_plylstname.text()
         if len(playlistName) <= 5:
-            self.lbl_plylst_create.setText("Longer Playlist Name Needed")
+            self.lbl_plylstcreate.setText("Longer Playlist Name Needed")
         else:
             cur.execute("SELECT PlaylistID FROM Playlists ORDER BY PlaylistID DESC")
             playlistID = cur.fetchall()[0][0] + 1
             cur.execute("INSERT INTO Playlists VALUES (?,?,?,3)", (int(playlistID), str(playlistName),
-                                                                   int(LoginWindow.userID)))
+                                                                   int(LoginWindow.int_userID)))
             con.commit()
             PlaylistWindow.playlist_reset()
             PlaylistNameWindow.hide()
